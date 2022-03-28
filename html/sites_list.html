@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sites Directory</title>
+    <link rel="shortcut icon" type="image/png" href="img/flipai.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+      <div class="tab" style="text-align:center">
+    <button class="tablinks" onClick="openUs(event, 'Home')">Home</button>
+        <button class="tablinks" onClick="openUs(event, 'Changelog')">Recent Changes/Updates</button>
+      <button class="tablinks" onClick="openUs(event, 'FlipAI')">FlipAI</button>
+    <button class="tablinks" onClick="openUs(event, 'AboutUs')">About</button>
+      <button class="tablinks" onClick="openUs(event, 'SitesList')">Directory</button>
+      <button class="tablinks" onClick="openUs(event, 'CalcCheats')">Calculator Stuff</button>
+      <button class="tablinks" onClick="openUs(event, 'Support')">Support</button>
+      <button class="tablinks" onClick="openUs(event, 'Notes')">Various Notes</button>
+    <button class="tablinks" onClick="openUs(event, 'Tabs')">Tabs</button>
+         <button class="tablinks" onClick="openUs(event, 'Research')">Research Pages Index</button>
+    </div>
+    <div id="Research" class='tabcontent'>
+      <a rel="research" href="researchindex.html">Click here to return to the Research Pages Index.</a>
+      <p>--------------------------------------</p>
+    </div>
+    </div>
+    <div id="Home" class='tabcontent'>
+      <a rel="home" href="index.html">Click here to go back to the homepage</a>
+                <p>-----------------------------------------</p>
+    </div>
+    <div id="Notes" class='tabcontent'>
+      <a rel="notes" href="https://oneenterprisestech.github.io/SchoolHelp/notehelper.html">Click here to view the notes (for schooling)</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Support" class='tabcontent'>
+      <a rel="suport" href="https://www.bonfire.com/the-systems/" target="_blank">Click here to support us!</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="CalcCheats" class='tabcontent'>
+      <a rel="calccheats" type="text/html" href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Click here to view the calculator cheats page</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="SitesList" class='tabcontent'>
+      <a rel="directive" type="text/html" href="sites_list.html">Click here to get redirected to the directory</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Changelog" class='tabcontent'>
+    <a rel="changelog" type="text/html" href="changelog.html">Click here to view the Changelog</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="FlipAI" class='tabcontent'> 
+      <a type="text/html" href="main.html">Click here to get directed to the FlipAI website</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="AboutUs" class='tabcontent'>
+      <a type="text/html" href="about.html">Click here to get directed to the About Us page.</a>
+      <p>-----------------------------------------</p>
+    </div>
+  <div>
+    <div id="Music" class='tabcontent'>
+      <a type="text/html" href="fileshiz.html">Click here to get directed to the Audio page (to download music)</a>
+      <p>-------------------</p>
+    </div>
+  </div>
+  <div>
+    <div id="Tabs" class='tabcontent'>
+      <a type="text/html" href="tabs.html">Click here to view/download some guitar tabs</a>
+    </div>
+  </div>
+    <div>
+      <div id="HowTo" class="tabcontent">
+        <a type="text/html" href="htindex.html">Click here to view the How-To page</a>
+        <p>-----------------------
+      </div>
+    </div>
+      <script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    <header>         
+    <!--logo and nav bar-->
+    <div id="top-header">
+      <div id="header-image-menu">
+        <img src="img/banner.png">
+    </div>
+      </div>
+    </header>
+  <center>
+  <h1>This is the new and complete list of sites</h1>
+  </center>
+  <p>All sites listed on this site's repository are listed here, which helps compact code and information and remove unnecessary clutter.</p>
+    <style>
+      p {
+        text-align: left;
+      }
+    </style>
+  <div>
+    <h3 align="center">Various Websites</h3>
+  </div>
+  <!-- <div>
+    <a rel="tgd" href="tgd.html">The Great Depression of 1929-1942</a>
+  </div> -->
+  <div>
+    <a rel="terrariastampedbeta" href="/games/terraria.html">Terraria - Scratch Edition (by Griffpatch)</a>
+  </div>
+  <div>
+    <a rel="citysim" href="/games/citysim.html">City Simulator - Scratch (by Macio6)</a>
+  </div>
+   <div>    
+      <a rel="htmlifier" href="https://oneenterprisestech.github.io/htmlifier/" target="_blank">HTMLifier by SheepTester - Forked and edited by oneenterprises.tech (Not updated)</a>
+    </div>
+    <div>
+      <a rel="DebLinepage" href="https://oneenterprisestech.github.io/DebLine-Enterprise/">Debline OS Webpage</a>
+    </div>
+    <div>
+            <a rel="calccheats" href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">TI84+/83/84+CE tips, cheats, and helps.</a>
+    </div>
+    <div>
+            <a rel="sheeptester" href="https://sheeptester.github.io/" target="_blank">Helpful and useful sites by SheepTester</a>
+    </div>
+    <div>
+      <a rel="htmltemplate" href="https://oneenterprisestech.github.io/htmltemplate.html">Click here for a helpful HTML template.</a>
+    </div>
+    <div>
+       <a rel="NoteHelperSite" href="https://oneenterprisestech.github.io/notehelper.html">Click here to view notes taken with the purpose of helping students with school stuff.</a>
+    </div>
+  <div>
+    <a rel="driftHunters" href="https://oneenterprisestech.github.io/dh.html">Click here to play Drift Hunters.</a>
+  </div>
+        <div><a rel="caseclicker" href="https://kingofkfcjamal.github.io/CaseClicker/" target="_blank">Click here to go to Case Clicker by KingOfKFCJamal.</a>
+  </div>
+        <div>
+          <a rel="caseclicker2" href="https://bnned.githubio/CSGOClicker/" target="_blank">This is another Case Clicker game, by BNNED. Click here to get there.</a>
+  </div>
+        <div>
+          <a rel="deflyio" href="https://defly.io" target="_blank">Probably my favorite game, click here to get to defly.io. It is a game where you shoot the enemy and destroy their base with helicopters and flying vehicles.</a>
+  </div>
+        <div>
+          <a rel="holeio" href="https://hole-io.com" target="_blank">Also a fun game, Hole.io is. Click here to get there.</a>
+  </div>
+        <div>
+          <a rel="paperio" href="https://paper.io" target="_blank">A fun, yet competietive, game. Click here to get to Paper.io</a>
+  </div>
+        <div>
+          <a rel="slitherio" href="https://slither.io" target="_blank">Fun, yet it is always very laggy for me. Click here to get to Slither.io</a>
+  </div>
+        <div>
+          <a rel="papermchtml" href="https://oneenterprisestech.github.io/papermc.html" target="_blank">Click here to access Paper Minecraft HTML. A notetaker is reccomended for file saves</a>
+  </div>
+  <div>
+    <a rel="viewpure" href="https://www.viewpure.com" target="_blank">Click here to access video purifier (and unblocker)</a>
+  </div>
+  <div>
+    <a rel="snes" href="https://oneenterprisestech.github.io/snesjs/">Click here to access a JavaScript-based Super Nintendo emulator</a>
+  </div>
+<script src="https://utteranc.es/client.js"
+        repo="oneenterprisestech/oneenterprisestech.github.io"
+        issue-term="title"
+        label="Comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+   <footer>
+    &copy; 2022 OneEnterprises.Tech
+  </footer>
+  </body>
+</html>
