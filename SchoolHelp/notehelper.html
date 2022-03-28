@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title> 
+    <link rel="shortcut icon" type="image/png" href="flipai.png"/> 
+    <link rel="stylesheet" type="text/css" href="oneenterprisestech.github.io/style.css"/> 
+  </head>
+  <body>
+<div class="tab" style="text-align:center">
+    <button class="tablinks" onClick="openUs(event, 'Home')">Home</button>
+       <button class="tablinks" onClick="openUs(event, 'Changelog')">Recent Changes/Updates</button>
+      <button class="tablinks" onClick="openUs(event, 'FlipAI')">FlipAI</button>
+    <button class="tablinks" onClick="openUs(event, 'AboutUs')">About</button>
+      <button class="tablinks" onClick="openUs(event, 'SitesList')">Directory</button>
+      <button class="tablinks" onClick="openUs(event, 'CalcCheats')">Calculator Stuff</button>
+      <button class="tablinks" onClick="openUs(event, 'Support')">Support</button>
+    <button class="tablinks" onClick="openUs(event, 'Music')">Audio</button>
+    <button class="tablinks" onClick="openUs(event, 'Tabs')">Tabs</button>
+      <button class="tablinks" onClick="openUs(event, 'HowTo')">Guides</button>
+    </div>
+    <div id="Home" class='tabcontent'>
+      <a rel="home" href="https://oneenterprises.github.io/index.html">Click here to go back to the homepage</a>
+                <p>-----------------------------------------</p>
+    </div>
+    <div id="Notes" class='tabcontent'>
+      <a rel="notes" href="https://oneenterprises.github.io/SchoolHelp/notehelper.html">Click here to view the notes (for schooling)</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Support" class='tabcontent'>
+      <a rel="suport" href="https://www.bonfire.com/the-systems/" target="_blank">Click here to support us!</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="CalcCheats" class='tabcontent'>
+      <a rel="calccheats" type="text/html" href="https://oneenterprises.github.io/TI8483CheatsandHelps/">Click here to view the calculator cheats page</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="SitesList" class='tabcontent'>
+      <a rel="directive" type="text/html" href="oneenterprises.github.io/sites_list.html">Click here to get redirected to the directory</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Changelog" class='tabcontent'>
+    <a rel="changelog" type="text/html" href="https://oneenterprises.github.io/changelog.html">Click here to view the Changelog</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="FlipAI" class='tabcontent'> 
+      <a type="text/html" href="https://oneenterprises.github.io/main.html">Click here to get directed to the FlipAI website</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="AboutUs" class='tabcontent'>
+      <a type="text/html" href="https://oneenterprises.github.io/about.html">Click here to get directed to the About Us page.</a>
+      <p>-----------------------------------------</p>
+    </div>
+  <div>
+    <div id="Music" class='tabcontent'>
+      <a type="text/html" href="https://oneenterprises.github.io/fileshiz.html">Click here to get directed to the Audio page (to download music)</a>
+      <p>-------------------</p>
+    </div>
+  </div>
+  <div>
+    <div id="Tabs" class='tabcontent'>
+      <a type="text/html" href="https://oneenterprises.github.io/tabs.html">Click here to view/download some guitar tabs</a>
+    </div>
+  </div>
+    <div>
+      <div id="HowTo" class="tabcontent">
+        <a type="text/html" href="https://oneenterprises.github.io/htindex.html">Click here to view the How-To page</a>
+        <p>-------------------------</p>
+      </div>
+    </div>
+     <script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    <header>
+      <!--Logo and nav bar code-->
+  
+    <div id="top-header">
+      <div id="header-image-menu">
+        <img src="oneenterprisestech.github.io/banner.png">
+    </div>
+      </div>
+    </header>
+  <style>
+        /* designing title and tag line */
+        h1, p {
+            border: 4px solid white;
+            padding: 10px 50px;
+            position: relative;
+            border-radius: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+  </body>
+</html>
