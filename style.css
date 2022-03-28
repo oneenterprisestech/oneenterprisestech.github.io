@@ -1,0 +1,384 @@
+body {
+  background: url(img/background.png) repeat 0 0;
+  text-align: center;
+  color: white;
+  font-family: sans-serif, helvetica;
+}
+td,th {
+	font-family: monospace;
+	padding: 4px;
+	background-color: #ccc;
+}
+
+label {
+	vertical-align: top;
+}
+
+#main {
+	border: 1px dotted blue;
+	padding: 6px;
+	background-color: #ccc;
+	margin-right: 50%;
+}
+
+#items_table {
+	border: 1px dotted blue;
+	padding: 6px;
+	margin-top: 12px;
+	margin-right: 50%;
+}
+
+#items_table h3 {
+	font-size: 18px;
+	margin-top: 0px;
+	font-family: sans-serif;
+}
+.utterances {
+  background-color: #708090;
+}
+.utterances-frame {
+  background-color: #gray;
+}
+footer {
+  color: white;
+  text-align: center;
+}
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+}
+.tab button {
+  background-color: transparent;
+  float: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.9s;
+  font-size: 17px;
+  color: white;
+}
+.tab button:hover {
+  opacity: 0.5;
+  background-color: gray;
+}
+.tab button.active {
+  opacity: 0.5;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  border: 1px white;
+}
+button {
+  text-align: center;
+}
+.active {
+  background-color: gray;
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: 'Corben';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/corben/v14/LYjAdGzzklQtCMpFHCZQpHoqbN4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Corben';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://fonts.gstatic.com/s/corben/v14/LYjAdGzzklQtCMpFHCZQqnoq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/nobile/v12/m8JTjflSeaOVl1iGV63WSLU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/nobile/v12/m8JTjflSeaOVl1iGWa3W.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+p, li, dd, dt {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow:;
+    color: #a0a0a0;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+
+}
+h1 {
+      font-family: 'Corben', Georgia, Times, serif;
+      font-size: 20px;
+      text-align: center;
+      text-shadow:;
+      color: gray;
+      background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+h2 {
+      font-family: 'Corben', Georgia, Times, serif;
+      font-size: 20px
+      text-align: left;
+      text-shadow:;
+      color: gray;
+      background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+h3 {
+      font-family: 'Corben', Georgia, Times, serif;
+      font-size: 20px;
+      text-align: right;
+      text-shadow:;
+      color: gray;
+      background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+h4 {
+      font-family: 'Corben', Georgia, Times, serif;
+      font-size: 30px;
+      text-align: center;
+      text-shadow:;
+      color: gray;
+      background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #FF9473;
+}
+details summary {
+  cursor: pointer;
+}
+
+details summary > * {
+  display: inline;
+}
+div, div#form_sample {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    color: gray;
+}
+a {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow:;
+    color: gray;
+    text-align: center;
+    
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/************/
+/* Comments */
+/***********/
+button1 {
+    color: #333;
+    background-color: transparent
+}
+.btn1 {
+    display: none
+}
+.container1 {
+    width: 600px;
+    border: 2px solid #333;
+    padding: 15px 10px;
+}
+input[type="submit"], button1 {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="submit"]
+{
+    color: #fff;
+    background-color: #273c75
+}
+textarea1 {
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+   
+  input {
+    font-family: "Lato";
+  }
+ #wrapper,
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #eee;
+    width: 600px;
+    max-width: 100%;
+    border: 2px solid #212121;
+    border-radius: 4px;
+  }
+   
+  #loginform {
+    padding-top: 18px;
+    text-align: center;
+  }
+   
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+   
+  #chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 300px;
+    width: 530px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+  }
+   
+  #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+  }
+   
+  #name {
+    border-radius: 4px;
+    border: 1px solid #ff9800;
+    padding: 2px 8px;
+  }
+   
+  #submitmsg,
+  #enter{
+    background: #ff9800;
+    border: 2px solid #e65100;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+   
+  .error {
+    color: #ff0000;
+  }
+   
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+   
+  #menu p.welcome {
+    flex: 1;
+  }
+   
+  a#exit {
+    color: white;
+    background: #c62828;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+   
+  .msgln {
+    margin: 0 0 5px 0;
+  }
+   
+  .msgln span.left-info {
+    color: orangered;
+  }
+   
+  .msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+  }
+   
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #546e7a;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+  }
+   
+  .msgln b.user-name-left {
+    background: orangered;
+  }
+/*****************************/
+/* Styling Header Image Menu */
+/*****************************/
+#header-image-menu{
+    top: 10px;
+    position: relative;
+}
+  
+#header-image-menu img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+  
+#image-text{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    font-family: 'Roboto';
+    color: #000;
+    transform: translate(-30%, -30%);
+    text-align: center;
+}
