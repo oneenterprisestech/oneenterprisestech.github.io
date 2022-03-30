@@ -3,6 +3,7 @@ body {
   text-align: center;
   color: white;
   font-family: sans-serif, helvetica;
+	text-color: #a0a0a0;
 }
 td,th {
 	font-family: monospace;
@@ -138,7 +139,7 @@ h1, h2, h3, h4 {
       font-size: 20px;
       text-align: center;
       text-shadow:;
-      color: gray;
+      color: #a0a0a0;
       /*background: -webkit-linear-gradient(#eee, #333);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -157,12 +158,12 @@ details summary > * {
 div, div#form_sample {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow: none;
-    color: gray;
+    color: #a0a0a0;
 }
 a {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow:;
-    color: gray;
+    color: #a0a0a0;
     text-align: center;
     
 }
