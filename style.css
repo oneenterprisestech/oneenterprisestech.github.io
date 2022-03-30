@@ -111,16 +111,23 @@ button {
 h5, h6 {
     font-family: 'Corben', Georgia, Times, serif;
     font-size: 30px;
-    background: -webkit-linear-gradient(#eee, #333);
+    /*background: -webkit-linear-gradient(#eee, #333);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   
+}
+code {
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+	text-shadow:;
+	color: #a0a0a0;
+	background-color: white;
+	color: gray;
 }
 p, li, dd, dt {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow:;
     color: #a0a0a0;
-    background: -webkit-linear-gradient(#eee, #333);
+    /*background: -webkit-linear-gradient(#eee, #333);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Nobile', Helvetica, Arial, sans-serif;
@@ -132,7 +139,7 @@ h1, h2, h3, h4 {
       text-align: center;
       text-shadow:;
       color: gray;
-      background: -webkit-linear-gradient(#eee, #333);
+      /*background: -webkit-linear-gradient(#eee, #333);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
