@@ -117,8 +117,8 @@ h5, h6 {
 }
 code {
   font-family: Consolas,"courier new";
-  color: #a0a0a0;
-  background-color: white;
+  color: black;
+  background-color: gray;
   padding: 2px;
   font-size: 105%;
 }
