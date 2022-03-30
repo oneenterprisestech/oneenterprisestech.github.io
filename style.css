@@ -116,11 +116,12 @@ h5, h6 {
   
 }
 code {
-  font-family: Consolas,"courier new";
-  color: black;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  color: white;
   background-color: gray;
   padding: 2px;
   font-size: 105%;
+	opacity: 0.5;
 }
 
 p, li, dd, dt {
