@@ -1,7 +1,6 @@
 body {
   background: url(img/background.png) repeat 0 0;
   text-align: center;
-  color: white;
   font-family: sans-serif, helvetica;
 }
 td,th {
@@ -117,14 +116,16 @@ h5, h6 {
   
 }
 code {
-	font-family: 'Nobile', Helvetica, Arial, sans-serif;
-	text-shadow:;
-	color: black;
-	background-color: gray;
+  font-family: Consolas,"courier new";
+  color: #a0a0a0;
+  background-color: white;
+  padding: 2px;
+  font-size: 105%;
 }
+
 p, li, dd, dt {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
-    text-shadow:;
+    text-shadow: none;
     color: #a0a0a0;
     /*background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
