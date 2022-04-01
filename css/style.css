@@ -39,7 +39,7 @@ label {
   background-color: gray;
 }
 footer {
-  color: #a0a0a0;
+  color: #ededed;
   text-align: center;
 }
 .tab {
@@ -56,7 +56,7 @@ footer {
   padding: 14px 16px;
   transition: 0.9s;
   font-size: 17px;
-  color: gray;
+  color: #ededed;
 }
 .tab button:hover {
   opacity: 0.5;
@@ -117,7 +117,7 @@ code {
 p, li, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow: none;
-    color: gray;
+    color: #ededed;
     /*background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
