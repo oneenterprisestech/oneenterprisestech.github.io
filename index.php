@@ -40,7 +40,7 @@ function loginForm(){
 <head>
 	<link rel="shortcut icon" type="image/png" href="img/flipai.png"/>
 	<title>DnD Chat</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
 </head>
