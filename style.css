@@ -1,5 +1,5 @@
 body {
-  background: url(img/background4.png) repeat 0 0;
+  background: url(/img/background3.png) repeat 0 0;
   text-align: center;
   font-family: sans-serif, helvetica;
 }
@@ -39,12 +39,12 @@ label {
   background-color: #gray;
 }
 footer {
-  color: white;
+  color: black;
   text-align: center;
 }
 .tab {
   overflow: hidden;
-  border: none;
+  border: black;
   background-color: transparent;
 }
 .tab button {
@@ -56,7 +56,7 @@ footer {
   padding: 14px 16px;
   transition: 0.9s;
   font-size: 17px;
-  color: white;
+  color: black;
 }
 .tab button:hover {
   opacity: 0.5;
@@ -108,7 +108,7 @@ button {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 h5, h6 {
-    font-family: 'Corben', Georgia, Times, serif;
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
     font-size: 30px;
     /*background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
@@ -122,26 +122,16 @@ code {
   font-size: 105%;
   opacity: 0.5;
 }
-p, li, dd, dt {
+p, li, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow: none;
-    color: white;
+    color: black;
     /*background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Nobile', Helvetica, Arial, sans-serif;*/
 
 }
-h1, h2, h3, h4 {
-      font-family: 'Corben', Georgia, Times, serif;
-      font-size: 20px;
-      text-align: center;
-      text-shadow:;
-      color: white;
-      /*background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
-
 }8nhj
 .nav-pills > .active > a, .nav-pills > .active > a:hover {
     background-color: #FF9473;
@@ -152,18 +142,6 @@ details summary {
 
 details summary > * {
   display: inline;
-}
-div, div#form_sample {
-  font-family: 'Nobile', Helvetica, Arial, sans-serif;
-    text-shadow: none;
-    color: white;
-}
-a {
-  font-family: 'Nobile', Helvetica, Arial, sans-serif;
-    text-shadow:;
-    color: white;
-    text-align: center;
-    
 }
 .centered {
   position: absolute;
