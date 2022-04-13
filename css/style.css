@@ -1,3 +1,6 @@
+  /**************************/
+ /* copy/v86 emulator code */
+/**************************/
 #start_emulation {
     padding: 6px 18px;
     font-size: 16px;
@@ -186,6 +189,9 @@
 .xterm-underline {
     text-decoration: underline;
 }
+  /*******************************************/
+ /* CSS for overall look of entire website. */
+/*******************************************/
 body {
   background: url(/img/background7.png) repeat 0 0;
   text-align: center;
@@ -490,9 +496,11 @@ form {
   .msgln b.user-name-left {
     background: orangered;
   }
-/*****************************/
-/* Styling Header Image Menu */
-/*****************************/
+
+/********************************/
+/* Style for Header Image Menu */
+/******************************/
+
 #header-image-menu{
     top: 10px;
     position: relative;
