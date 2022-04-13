@@ -19,21 +19,7 @@
 	    <button class="tablinks"><a href="htindex.html">Guides</a></button>
 	    <button class="tablinks"><a href="researchindex.html">Helpful Research Pages</a></button>
     </div>
-      <script>
-function openUs(evt, usType) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(usType).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
+	<script src="/js/navbar.js"></script>
   <header>
     <div id="top-header">
       <div id="header-image-menu">
@@ -65,6 +51,9 @@ function openUs(evt, usType) {
 <div align="left">
 	<div>
 		<b>2022-04-13 Logan Alldredge <a href="mailto:one-enterprises.tech@outlook.com?subject = changelog_hyperlink_contact">*one-enterprises.tech@outlook.com*</a> Version 106</b>
+	</div>
+	<div>
+		<i>*Added links to JavaScript code on some pages. It replaces the inline JavaScript code for the Navbar.</i>
 	</div>
 	<div>
 		<i>*Updated the copyright statement on some pages.</i>
