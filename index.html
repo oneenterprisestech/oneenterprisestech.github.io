@@ -35,21 +35,7 @@
       <button class="tablinks"><a href="https://oneenterprises-tech.herokuapp.com/" target="_blank">Chat</a></button>
         <button class="tablinks"><a href="/Projects">Projects</a></button
     </div>
-      <script>
-function openUs(evt, usType) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(usType).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
+              <script src="/js/navbar.js"></script>
   <header>
     <div id="top-header">
       <div id="header-image-menu">
