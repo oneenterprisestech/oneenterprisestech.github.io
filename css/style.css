@@ -114,7 +114,7 @@ code {
   font-size: 105%;
   opacity: 0.5;
 }
-p, li, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a {
+p, li, dl, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow: none;
     color: #ededed;
