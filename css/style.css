@@ -308,6 +308,16 @@ code {
   font-size: 105%;
   opacity: 0.5;
 }
+table {
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    text-shadow: none;
+    color: #ededed;
+    /*background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;*/
+	background: url(/img/background7.png) repeat 0 0;
+}
 p, li, dl, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow: none;
