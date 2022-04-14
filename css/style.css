@@ -308,7 +308,11 @@ code {
   font-size: 105%;
   opacity: 0.5;
 }
-table {
+table, #items_table {
+	border: 1px dotted blue;
+	padding: 6px;
+	margin-top: 12px;
+	margin-right: 50%; {
 	font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow: none;
     color: #ededed;
