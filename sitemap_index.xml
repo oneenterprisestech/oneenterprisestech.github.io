@@ -1,99 +1,228 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://oneenterprisestech.github.io/</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/about.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>2</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/changelog.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>3</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/ht1.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>4</priority>
-  </url>
-    <url>
-    <loc>https://oneenterprisestech.github.io/htindex.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>5</priority>
-    </url>
-    <url>
-    <loc>https://oneenterprisestech.github.io/htmltemplate.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>6</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/main.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>7</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/notehelper.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>8</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/papermc.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>11</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/sites_list.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>13</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/tabs.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>14</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/tos.html</loc>
-    <lastmod>2022-02-08</lastmod>
-    <changefreq>annually</changefreq>
-    <priority>15</priority>
-  </url>
-   <url>
-    <loc>https://oneenterprisestech.github.io/tgd.html</loc>
-    <lastmod>2022-02-09</lastmod>
-     <changefreq>weekly</changefreq>
-     <priority>16</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/reasarchindex.html</loc>
-    <lastmod>2022-02-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>17</priority>
-  </url>
-  <url>
-    <loc>https://oneenterprisestech.github.io/randomhts.html</loc>
-    <lastmod>2022-02-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>18</priority>
-  </url>
-  <url>
-    <loc>https://one-enterprisestec.wixsite.com/index</loc>
-    <lastmod>2022-02-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>19</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://oneenterprisestech.github.io/</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/changelog.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/about.html</loc>
+<lastmod>2022-04-14T17:03:30+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/sites_list.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/TI8483CheatsandHelps/</loc>
+<lastmod>2022-02-07T17:58:27+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/tabs.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/htindex.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/activities.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/Projects/</loc>
+<lastmod>2022-04-15T16:47:21+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/index.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/answers.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/index.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/main.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/SchoolHelp/notehelper.html</loc>
+<lastmod>2022-04-14T17:03:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/researchindex.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/index.html</loc>
+<lastmod>2022-04-14T17:03:35+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/htmlifier/</loc>
+<lastmod>2022-01-31T17:02:20+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/DebLine-Enterprise/</loc>
+<lastmod>2022-01-31T17:02:13+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/TI8483CheatsandHelps/index.html</loc>
+<lastmod>2022-02-07T17:58:27+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/TI8483CheatsandHelps/hexcodespg1.html</loc>
+<lastmod>2022-02-07T17:58:27+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/TI8483CheatsandHelps/hexcodespg2.html</loc>
+<lastmod>2022-02-07T17:58:27+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/TI8483CheatsandHelps/cheatspg1.html</loc>
+<lastmod>2022-02-07T17:58:27+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/TI8483CheatsandHelps/listpic.html</loc>
+<lastmod>2022-02-07T17:58:27+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/ht1.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/ht2.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/randomhts.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/games/papermc.html</loc>
+<lastmod>2022-04-14T17:03:30+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/dnd.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community-debug.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community-staging.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/apex_algebra2_sem1.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/tgd.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/html/vocab.html</loc>
+<lastmod>2022-04-14T17:03:31+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/htmlifier/?</loc>
+<lastmod>2022-01-31T17:02:20+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/DebLine-Enterprise/page4.html</loc>
+<lastmod>2022-01-31T17:02:13+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/DebLine-Enterprise/page3.html</loc>
+<lastmod>2022-01-31T17:02:13+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/DebLine-Enterprise/page2.html</loc>
+<lastmod>2022-01-31T17:02:13+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community.os.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community-debug.os.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/DebLine-Enterprise/index.html</loc>
+<lastmod>2022-01-31T17:02:13+00:00</lastmod>
+<priority>0.41</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community.os.x86_64.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.41</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community-debug.os.x86_64.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.41</priority>
+</url>
+<url>
+<loc>https://oneenterprisestech.github.io/arch-mirror.wy.us/html/community.os.x86_64.local.html</loc>
+<lastmod>2022-04-11T20:32:42+00:00</lastmod>
+<priority>0.33</priority>
+</url>
 </urlset>
