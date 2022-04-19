@@ -19,65 +19,10 @@ body {
 	margin-right: 50%;
 }
 
-#items_table {
-	border: 1px dotted blue;
-	padding: 6px;
-	margin-top: 12px;
-	margin-right: 50%;
-}
-
-#items_table h3 {
-	font-size: 18px;
-	margin-top: 0px;
-	font-family: sans-serif;
-}
-.utterances {
-  background-color: #708090;
-}
-.utterances-frame {
-  background-color: gray;
-}
 footer {
   color: #ededed;
   text-align: center;
 }
-.tab {
-  overflow: hidden;
-  border: black;
-  background-color: transparent;
-}
-.tab button {
-  background-color: transparent;
-  float: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.9s;
-  font-size: 17px;
-  color: #ededed;
-}
-.tab button:hover {
-  opacity: 0.5;
-  background-color: gray;
-}
-.tab button.active {
-  opacity: 0.5;
-}
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border-top: none;
-  border: 1px white;
-}
-button {
-  text-align: center;
-}
-.active {
-  background-color: gray;
-  opacity: 0.5;
-}
-
 @font-face {
   font-family: 'Corben';
   font-style: normal;
@@ -106,13 +51,6 @@ button {
   src: url(https://fonts.gstatic.com/s/nobile/v12/m8JTjflSeaOVl1iGWa3W.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-code {
-  font-family: 'Nobile', Helvetica, Arial, sans-serif;
-  color: crimson;
-  padding: 2px;
-  font-size: 105%;
-  opacity: 0.5;
-}
 p, li, dl, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a, table {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
     text-shadow: none;
@@ -123,208 +61,12 @@ p, li, dl, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a, table {
   font-family: 'Nobile', Helvetica, Arial, sans-serif;*/
 
 }
-.nav-pills > .active > a, .nav-pills > .active > a:hover {
-    background-color: #000080;
-}
-details summary {
-  cursor: pointer;
-}
-
-details summary > * {
-  display: inline;
-}
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-/************/
-/* Comments */
-/***********/
-button1 {
-    color: #333;
-    background-color: transparent
-}
-.btn1 {
-    display: none
-}
-.container1 {
-    width: 600px;
-    border: 2px solid #333;
-    padding: 15px 10px;
-}
-input[type="submit"], button1 {
-    padding: 10px 15px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-}
-input[type="submit"]
-{
-    color: #fff;
-    background-color: #273c75
-}
-textarea1 {
-    height: 20px;
-    width: 100%;
-    border: none;
-    border-bottom: 2px solid #aaa;
-    background-color: transparent;
-    margin-bottom: 10px;
-    resize: none;
-    outline: none;
-    transition: .5s
-}
-form {
-    padding: 15px 25px;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
-   
-  form label {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-   
-  input {
-    font-family: "Lato";
-  }
- #wrapper,
-  #loginform {
-    margin: 0 auto;
-    padding-bottom: 25px;
-    background: #eee;
-    width: 600px;
-    max-width: 100%;
-    border: 2px solid #212121;
-    border-radius: 4px;
-  }
-   
-  #loginform {
-    padding-top: 18px;
-    text-align: center;
-  }
-   
-  #loginform p {
-    padding: 15px 25px;
-    font-size: 1.4rem;
-    font-weight: bold;
-  }
-   
-  #chatbox {
-    text-align: left;
-    margin: 0 auto;
-    margin-bottom: 25px;
-    padding: 10px;
-    background: #fff;
-    height: 300px;
-    width: 530px;
-    border: 1px solid #a7a7a7;
-    overflow: auto;
-    border-radius: 4px;
-    border-bottom: 4px solid #a7a7a7;
-  }
-   
-  #usermsg {
-    flex: 1;
-    border-radius: 4px;
-    border: 1px solid #ff9800;
-  }
-   
-  #name {
-    border-radius: 4px;
-    border: 1px solid #ff9800;
-    padding: 2px 8px;
-  }
-   
-  #submitmsg,
-  #enter{
-    background: #ff9800;
-    border: 2px solid #e65100;
-    color: white;
-    padding: 4px 10px;
-    font-weight: bold;
-    border-radius: 4px;
-  }
-   
-  .error {
-    color: #ff0000;
-  }
-   
-  #menu {
-    padding: 15px 25px;
-    display: flex;
-  }
-   
-  #menu p.welcome {
-    flex: 1;
-  }
-   
-  a#exit {
-    color: white;
-    background: #c62828;
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-weight: bold;
-  }
-   
-  .msgln {
-    margin: 0 0 5px 0;
-  }
-   
-  .msgln span.left-info {
-    color: orangered;
-  }
-   
-  .msgln span.chat-time {
-    color: #666;
-    font-size: 60%;
-    vertical-align: super;
-  }
-   
-  .msgln b.user-name, .msgln b.user-name-left {
-    font-weight: bold;
-    background: #546e7a;
-    color: white;
-    padding: 2px 4px;
-    font-size: 90%;
-    border-radius: 4px;
-    margin: 0 5px 0 0;
-  }
-   
-  .msgln b.user-name-left {
-    background: orangered;
-  }
-
-/********************************/
-/* Style for Header Image Menu */
-/******************************/
-
-#header-image-menu{
-    top: 10px;
-    position: relative;
-}
-  
-#header-image-menu img{
-    width: 100%;
-    margin: none;
-    padding: none;
-}
-  
-#image-text{
-    position: absolute;
-    top: 60%;
-    left: 60%;
-    font-family: 'Roboto';
-    color: #000;
-    transform: translate(-30%, -30%);
-    text-align: center;
-}
+		}
 		::-moz-selection {
                 background: #b3d4fc;
                 text-shadow: none;
@@ -338,80 +80,12 @@ form {
             input {
                 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             }
-
-            /* google search */
-
-            #goog-fixurl ul {
-                list-style: none;
-                padding: 0;
-                margin: 0;
-            }
-
-            #goog-fixurl form {
-                margin: 0;
-            }
-
-            #goog-wm-qt,
-            #goog-wm-sb {
-                border: 1px solid #bbb;
-                font-size: 16px;
-                line-height: normal;
-                vertical-align: top;
-                color: #444;
-                border-radius: 2px;
-            }
-
-            #goog-wm-qt {
-                width: 220px;
-                height: 20px;
-                padding: 5px;
-                margin: 5px 10px 0 0;
-                box-shadow: inset 0 1px 1px #ccc;
-            }
-
-            #goog-wm-sb {
-                display: inline-block;
-                height: 32px;
-                padding: 0 10px;
-                margin: 5px 0 0;
-                white-space: nowrap;
-                cursor: pointer;
-                background-color: transparent;
-                background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), #f1f1f1);
-                background-image: -moz-linear-gradient(rgba(255, 255, 255, 0), #f1f1f1);
-                background-image: -ms-linear-gradient(rgba(255, 255, 255, 0), #f1f1f1);
-                background-image: -o-linear-gradient(rgba(255, 255, 255, 0), #f1f1f1);
-                -webkit-appearance: none;
-                -moz-appearance: none;
-                appearance: none;
-                *overflow: visible;
-                *display: inline;
-                *zoom: 1;
-            }
-
-            #goog-wm-sb:hover,
-            #goog-wm-sb:focus {
-                border-color: #aaa;
-                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-                background-color: #f8f8f8;
-            }
-
-            #goog-wm-qt:hover,
-            #goog-wm-qt:focus {
-                border-color: #105cb6;
-                outline: 0;
-                color: #222;
-            }
-
-            input::-moz-focus-inner {
-                padding: 0;
-                border: 0;
-            }
         </style>
+	</head>
         <body>
             <div class="container">
                 <h1>Unable to finish query<span>404_ERROR |x_x|</span></h1>
-                <p></p>
+		    <div align="left">
                 <p>It looks like this was the result of either:</p>
                 <ul>
                     <li>A mistyped address (URL)</li>
@@ -421,7 +95,13 @@ form {
                 </ul>
               <p>Sorry about the unfortunate issue!</p>
               <p>If you think it is an issue with the server, contact <a href="mailto:one-enterprises.tech@outlook.com?subject = server_error_report">one-enterprises.tech@outlook.com</a>. If this is the case, remain calm and please be patient! We will get back to you as soon as we can!</p>
-                <script>
+		    </div>
+		</div>
+		</div>
+	    </div>
+	</div>
+</div>
+			    <script>
                     var GOOG_FIXURL_LANG = (navigator.language || "").slice(0, 2),
                         GOOG_FIXURL_SITE = location.host;
                 </script>
