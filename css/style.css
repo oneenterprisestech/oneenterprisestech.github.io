@@ -34,6 +34,7 @@ label {
 #moneyTable {
 	margin-left: auto;
 	margin-right: auto;
+	background-color: transparent;
 }
 
 #moneyButton {
@@ -42,8 +43,8 @@ label {
 	display: block;
 	height: 40px;
 	width: 200px;
-	background-color: #000080;
 	font-size: 16px;
+	background-color: transparent;
 }
 
 #moneyButtonText {
@@ -63,23 +64,27 @@ label {
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
+	background-color: transparent;
+
 }
 
 #row5, #row6, #row7 {
 	margin-top: -2px;
 	padding-top: 0px;
+	background-color: transparent;
 }
 
 #numToBuyContainer{
 	margin-top: 30px;
 	display: block;
 	text-align: center; 
+	background-color: transparent;
 }
 
 #numToBuy {
 	width: 100px;
 	text-align: center;
-	background-color: #000080;
+	background-color: transparent;	
 	border-radius: 5px;
 	display: inline-block;
 }
@@ -88,16 +93,19 @@ label {
 	width: auto;
 	padding: 1px 5px;
 	font-weight: bold;
+	background-color: transparent;
 }
 
 #submitNumToBuy2{
 	width: auto;
 	padding: 1px 5px;
 	font-weight: bold;
+	background-color: transparent;
 }
 
 #optionTable{
 	margin: auto;
+	background-color: transparent;
 }
 
 #reset {
@@ -106,18 +114,21 @@ label {
 	font-size: 30px;
 	display: inline-block;
 	margin-bottom: 20px;
+	background-color: transparent;
 }
 
 #statTable, #resetTable{
 	display: inline;
 	margin: auto;
 	float: left;
+	background-color: transparent;
 }
 
 #chartContainer{
 	float: right;
 	height: 400px;
 	width: 600px;
+	background-color: transparent;
 }
 
 #chartAxisToggle{
@@ -128,21 +139,25 @@ label {
 	padding: 1px 5px;
 	font-weight: bold;
 	width: 150px;
+	background-color: transparent;
 }
 
 #prestigeTable thead{
 	font-weight: bold;
+	background-color: transparent;
 }
 
 #prestigeTable tr td{
 	padding-left: 20px;
 	padding-right: 20px;
+	background-color: transparent;
 }
 
 #bottom{
 	clear: both;
 	font-size: 12px;
 	text-align: center;
+	background-color: transparent;
 }
 	
 
@@ -224,6 +239,7 @@ label {
 	font-size: 30px;
 	width: 300px;
 	height: 20px;
+	background-color: transparent;
 }
 
 /* General classes */
@@ -242,17 +258,20 @@ label {
 /* Centers the tabs */
 #tabs .ui-tabs-nav {
 	text-align: center;
+	background-color: transparent;
 }
 
 #tabs .ui-tabs-nav li {
 	float: none;
 	display: inline-block;
+	background-color: transparent;
 }
 
 /* Other appearance stuff */
 #tabs { 
     background: transparent; 
-    border: none; 
+    border: none;
+	background-color: transparent;
 } 
 #tabs .ui-widget-header { 
     background: transparent; 
@@ -261,18 +280,22 @@ label {
     -moz-border-radius: 0px; 
     -webkit-border-radius: 0px; 
     border-radius: 0px; 
+	background-color: transparent;
 } 
 
 #tabs .ui-tabs-nav .ui-state-default { 
     background: transparent; 
     border: none; 
+	background-color: transparent;
 } 
 #tabs .ui-tabs-nav .ui-state-active { 
     background: transparent no-repeat bottom center; 
     border: none; 
+	background-color: transparent;
 } 
 #tabs .ui-tabs-nav .ui-state-default a { 
-    color: white; 
+    color: white;
+	background-color: transparent;
 } 
 #tabs .ui-tabs-nav .ui-state-active a { 
     color: white; 
