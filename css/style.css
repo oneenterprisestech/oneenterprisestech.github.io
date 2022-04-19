@@ -42,7 +42,7 @@ label {
 	display: block;
 	height: 40px;
 	width: 200px;
-	background-color: #D4DAFC;
+	background-color: #000080;
 	font-size: 16px;
 }
 
@@ -79,7 +79,7 @@ label {
 #numToBuy {
 	width: 100px;
 	text-align: center;
-	background-color: #D4DAFC;
+	background-color: #000080;
 	border-radius: 5px;
 	display: inline-block;
 }
@@ -196,17 +196,17 @@ label {
 }
 
 .button {
-	background-color: #AAAAAA;
+	background-color: transparent;
 }
 
 /* buttons that are lit */
 
 .buttonLit {
-	background-color: #D4DAFC;
+	background-color: transparent;
 }
 
 .buttonLit:hover {
-	background-color: #ADBAFF;
+	background-color: gray;
 }
 
 .option {
@@ -265,10 +265,10 @@ label {
     border: none; 
 } 
 #tabs .ui-tabs-nav .ui-state-default a { 
-    color: #AAAAAA; 
+    color: white; 
 } 
 #tabs .ui-tabs-nav .ui-state-active a { 
-    color: #000000; 
+    color: white; 
 }
 #main {
 	border: 1px dotted blue;
@@ -383,7 +383,7 @@ p, li, dl, dd, dt, h1, h2, h3, h4, h5, h6, div, div#form_sample, a, table {
 }
 }8nhj
 .nav-pills > .active > a, .nav-pills > .active > a:hover {
-    background-color: #FF9473;
+    background-color: #000080;
 }
 details summary {
   cursor: pointer;
