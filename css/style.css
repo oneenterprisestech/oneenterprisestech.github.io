@@ -392,12 +392,12 @@ footer {
   color: #ededed;
   text-align: center;
 }
-.tab, .menu {
+.tab {
   overflow: hidden;
   border: black;
   background-color: transparent;
 }
-.tab button, .menu a ul li {
+.tab button {
   background-color: transparent;
   float: none;
   border: none;
@@ -408,11 +408,11 @@ footer {
   font-size: 17px;
   color: #ededed;
 }
-.tab button:hover, .menu a:hover, .menu li:hover, .menu li ul a {
+.tab button:hover {
   opacity: 0.5;
   background-color: gray;
 }
-.tab button.active, .menu a:visited {
+.tab button.active {
   opacity: 0.5;
 }
 .tabcontent {
