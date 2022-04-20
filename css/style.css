@@ -55,6 +55,69 @@ label {
 	text-align: center;
 }
 
+/* Code for Realm Grinder game */
+
+.col-md-9
+            {
+                position: relative;
+                min-height: 1px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+.photo{
+            float:left;
+            width: 40%
+        }
+    
+        .note{
+            background-color: black;
+            color: white;
+            margin: 100px;
+            padding:20px;
+            float:right;
+            width:40%;
+            border-radius: 6.18%;
+            font-family: "Microsoft Yahei"
+        }
+    
+        .blank{
+            position: absolute;
+            opacity:0
+        }
+    
+        .attention
+        {
+            color:red;
+            font-size:20px;
+        }
+        .foot
+        {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+        .main
+        {
+        height:100% ;
+        padding-bottom:120px;
+    
+        }
+.info {
+            background-color:black;
+            color:white;
+            /* margin: 100px; */
+            padding:20px;
+            /* float:right; */
+            position:absolute;
+            width:40%;
+            border-radius: 6.18%;
+            border: 2px outset rgb(204,232,207) ;
+            font-family: "Microsoft Yahei";
+    
+        }
+/* end code for realm grinder */
+
 /*#tableContainer {
 	overflow: auto;
 	height: 325px;
