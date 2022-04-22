@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msvalidate.01" content="EEEC63952E206F7ED21B390DAD6276CC" />
+    <title>How To Install Arch Linux on a Chromebook</title> 
+    <link rel="shortcut icon" type="image/png" href="/img/flipai.png"/> 
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/> 
+  </head> 
+  <body>
+      <div class="tab" style="text-align:center">
+  <button class="tablinks"><a href="/index.html">Home</a></button>
+     <button class="tablinks"><a href="about.html">About</a></button>
+	    <button class="tablinks"><a href="changelog.html">Recent Changes/Updates</a></button>
+	    <button class="tablinks"><a href="main.html">FlipAI</a></button>
+	    <button class="tablinks"><a href="sites_list.html">Directory</a></button>
+	    <button class="tablinks"><a href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Calculator Stuff</a></button>
+	    <button class="tablinks"><a href="/SchoolHelp/notehelper.html">Various Notes</a></button>
+	    <button class="tablinks"><a href="tabs.html">Tabs</a></button>
+	    <button class="tablinks"><a href="htindex.html">Guides</a></button>
+	    <button class="tablinks"><a href="researchindex.html">Helpful Research Pages</a></button>
+    </div>
+    <div id="Research" class='tabcontent'>
+      <a rel="research" href="researchindex.html">Click here to return to the Research Pages Index.</a>
+      <p>--------------------------------------</p>
+    </div>
+    </div>
+    <div id="Home" class='tabcontent'>
+      <a rel="home" href="/index.html">Click here to go back to the homepage</a>
+                <p>-----------------------------------------</p>
+    </div>
+    <div id="Notes" class='tabcontent'>
+      <a rel="notes" href="/SchoolHelp/notehelper.html">Click here to view the notes (for schooling)</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Support" class='tabcontent'>
+      <a rel="suport" href="https://www.bonfire.com/the-systems/" target="_blank">Click here to support us!</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="CalcCheats" class='tabcontent'>
+      <a rel="calccheats" type="text/html" href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Click here to view the calculator cheats page</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="SitesList" class='tabcontent'>
+      <a rel="directive" type="text/html" href="sites_list.html">Click here to get redirected to the directory</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Changelog" class='tabcontent'>
+    <a rel="changelog" type="text/html" href="changelog.html">Click here to view the Changelog</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="FlipAI" class='tabcontent'> 
+      <a type="text/html" href="main.html">Click here to get directed to the FlipAI website</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="AboutUs" class='tabcontent'>
+      <a type="text/html" href="about.html">Click here to get directed to the About Us page.</a>
+      <p>-----------------------------------------</p>
+    </div>
+  <div>
+    <div id="Music" class='tabcontent'>
+      <a type="text/html" href="fileshiz.html">Click here to get directed to the Audio page (to download music)</a>
+      <p>-------------------</p>
+    </div>
+  </div>
+  <div>
+    <div id="Tabs" class='tabcontent'>
+      <a type="text/html" href="tabs.html">Click here to view/download some guitar tabs</a>
+    </div>
+  </div>
+    <div>
+      <div id="HowTo" class="tabcontent">
+        <a type="text/html" href="htindex.html">Click here to view the How-To page</a>
+        <p>-----------------------
+      </div>
+    </div>
+      <script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    <header>         
+    <!--logo and nav bar-->
+    <div id="top-header">
+      <div id="header-image-menu">
+        <img src="/img/banner.png">
+    </div>
+      </div>
+    </header>
+</head>
+  
+  <center>
+    <p>Please click on the "Sites Directory" tab in order to view the website compendium.</p>
+    <p>Please click on the "Recent Changes/Updates" tab for information regarding FlipAI and this website.</p>
+  </center>
+  <div>
+    <h1>How To Install Arch Linux on a Chromebook</h1>
+  </div>
+  <div align="left">
+    <p>Difficulty level: Moderate</p>
+    <p>Not for the new Chromebook enthusiast.</p>
+  </div>
+  <div>
+    <center>
+      <i>
+        <h3>What is Arch Linux?</h3>
+      </i>
+    </center>
+    <div align="left">
+      <p>Arch Linux is a Linux distribution meant for computers with x86_64 processors. Arch Linux adheres to the KISS principle and is focused on simplicity, modernity, pragmatism, user centrality, and versatility.</p>
+      <p>To put it simply, Arch Linux is a computer operating system designed to be able to be portable and it is a good choice for installing on a device with little memory, like a Chromebook</p>
+    </div>
+    <div align="left">
+      <h3>What you need:</h3>
+      <ol>
+        <li>A small screwdriver</li>
+        <li>An internet connection</li>
+        <li>A USB pendrive/SD card/memory stick/hard drive of at least 1 GB of space, and with nothing on it that you care about, as all data will be removed</li>
+        <li>I reccomend doing this on a Chromebook with a hard drive size of at least 16 GB</li>
+        <li>A bit of patience</li>
+      </ol>
+    </div>
+    <div align="left">
+        <h3>Step One: Enable developer mode on your Chromebook</h3>
+    </div>
+    <div align="left">
+      <p>Developer mode is a Chromebook mode that allows users to do potentially destructive things, or to simply experiment with the newest un-released features.</p>
+      <p>Compare <a rel="lifehacker" href=https://lifehacker.com/how-to-install-linux-on-a-chromebook-and-unlock-its-ful-509039343>https://lifehacker.com/how-to-install-linux-on-a-chromebook-and-unlock-its-ful-509039343</a> for reference.</p>
+      <p>Just a note: Make sure you have an internet connection.</p>
+      <p>Press the escape (esc) key, the refresh (little circular arrow or F3) button, and the power button at the same time</p>
+      <p>Once the recovery mode screen pops up (the one with the big yellow exclamation point or the one that says insert recovery medium), press ctrl+d</p>
+      <p>Once the computer prompts you, press ctrl+d again.</p>
+      <p>The computer will tell you that ChromeOS verification is off. Press ctrl+d to continue, and wait. ChromeOS will automatically enable developer mode from there.</p>
+      <p>Once the computer reboots, select "enable debug tools."</p>
+      <p>The computer will reboot, at which point you will have to log in again, and you will need your internet connection.</p>
+    </div>
+    <div align="left">
+        <h3>Creating an Arch Linux bootable device from ChromeOS</h3>
+    </div>
+    <div align="left">
+      <p>Note: This method seems relatively unorthodox, but, surprisingly enough, it works exactly the same as it would if you used another tool on Windows such as Rufus. It could even work better, because it automatically chooses the settings needed to boot from SeaBIOS.</p>
+      <p>The first thing that you need to make a bootable device from your Chromebook, the easy way, is to install a program called Chromebook Recovery Utility. You can download it from the Web Store.</p>
+      <p>You can download the Arch Linux ISO file (from a U.S. Arch download mirror) from here: <a>https://america.mirror.pkgbuild.com/iso/2022.02.01/</a></p>
+      <p>I recommend downloading the ISO file to your Downloads folder.</p>
+      <p>Next, after the file is downloaded, find the file wherever you saved it and rename it.</p>
+      <p>Click the left arrow key until you get to the end of the name, the part that says it is .iso</p>
+      <p>Delete the .iso part, and replace it with .bin</p>
+      <p>Now, go to your Chromebook Recovery Utility app.</p>
+      <p>Click on the cog wheel in the top right hand corner of the app's window (next to the x) and select the option that says somethign along the line of "use your own recovery image"</p>
+      <p>Select the .bin file that you made.</p>
+      <p>Follow the instructions that the app suggests from there.</p>
+    </div>
+    <div align="left">
+        <h3>Removing the write protect screw</h3>
+      </center>
+    </div>
+    <div align="left">
+      <p>Power off your Chromebook. This is crucial, because if you do not power off your Chromebook, you could fry the motherboard an then the Chromebook won't work.</p>
+      <p>Take the cover that hides the internal stuff of your Chromebook off. You know, the plastic cover held in by screws on the bottom of your Chromebook.</p>
+      <p>Locate the write-protect screw of your Chromebook. The screw's location depends on the model of your Chromebook. To find it, you can do a simple Google search. For example, you can search "Where is the write-protect screw of my Acer Chromebook 11?" Generally, however, it is the largest screw that you can see on your motherboard, and is positioned over a copper piece.</p>
+      <p>After you have removed the write-protect screw, put your Chromebook back together.</p>
+      <p>After you have put your Chromebook back together, power on your Chromebook and sign in again. Press ctrl+alt+F2 (F2 is the little arrow at the top of your keyboard that points to the right.)</p>
+      <p>Sign in as user "chronos," and enter your password.</p>
+      <p>Now, go into super user mode (sudo su) and hit enter.</p>
+      <p>Enter the following commands</p>
+      <div>
+        <code>sudo flashrom -p host --wp-disable</code>
+      </div>
+      <p>And write-protect should be turned off. If you have removed the write-protect screw, </p>
+      <p>To get back to ChromeOS, press ctrl+alt+F2 (which is the little arrow at the top of you rkeyboard that points to the right)</p>
+      <div align="left">
+          <h3>Flashing UEFI firmware in order to load Arch</h3>
+        <p color="red">IMPORTANT: This will delete all data, <strong>including</strong> Chrome OS. Only proceed if you wish to do this.</p>
+      </div>
+      <div align="left">
+        <p>THis process is potentially destructive, and it can brick (ruin) your device. Make sure you check the "Supported Devices" list on MrChromebox.Tech (which can be viewed<a rel="devicesupport" href="https://mrchromebox.tech/#devices">here</a></p>
+        <p>Press ctrl+alt+t in order to open a Crosh terminal session.</p>
+        <p>Type "shell"</p>
+        <p>Enter your password that you chose for "root" when you created it.</p>
+        <p>Now, once you log in to your shell, type the following commands:</p>
+        <div align="left">
+              <i>
+                <p>cd; curl -LO mrchromebox.tech/firmware-util.sh</p>
+                <p>sudo install -Dt /usr/local/bin -m 755 firmware-util.sh</p>
+                <p>sudo firmware-util.sh</p>
+              </i>
+          </div>
+        <div align="left">
+          <p>Once the menu pops up, choose "Install/Update UEFI (Full ROM) Firmware"</p>
+          <p>Follow the instructions that pop up.</p>
+                </div>
+      </div>
+                <div align="left">
+                    <h3>Installing Arch Linux</h3>
+                </div>
+                <div align="left">
+                  <p>Now that you have flashed the UEFI BIOS, you can continue with the next steps, that is, if you have not bricked your device. It is extremely difficult to unbrick a device, and shall not be discussed here</p>
+                  <p>Insert the USB that you made and power on your Chromebook.</p>
+                  <p>Hit the escape key when the screen shows a picture of a rabbit.</p>
+                  <p>Select "boot menu"</p>
+                  <p>Select "General USB Flash Disk" or whatever the external device is named.</p>
+                  <p>Note: SD cards, usually, do not seem to work.</p>
+                  <p>Boot into Arch Linux, and select the first option that is shown on the Arch installer menu.</p>
+                  <p>In the nest section, the code to install it to your disk will be shown and included. Please note that it takes a while to do, and is a bit difficult, and it can be highly destructive if not done properly.</p>
+                  </div>
+                <div align="left">
+                    <h3>How To Install Arch Linux to Chromebook Memory and Such</h3>
+                </div>
+                <div align="left">
+                  <div>
+                    <p>To install Arch Linux, use the following code. This will include installation of a GUI, which, by default, is not enabled in Arch.</p>
+                    <p>All of the bolded text is the code required to install Arch Linux.</p>
+                  </div>
+                  <div align="left">
+                    <code>fdisk -l</code>
+                  </div>
+                  <div align="left">
+                    <code>fdisk /dev/-name of disk (which will be called mmcblk with a number at the end.)-</code>
+                  </div>
+                  <div align="left">
+                    <i>Delete first partitions (by pressing <code>d</code>)</i>
+                  </div>
+                  <div align="left">
+                    <i>Delete the next partitoon, by repeating the above.</i>
+                  </div>
+                  <div align="left">
+                    <i>Write the partition table by pressing <code>w<code></i>
+                      </div>
+                  <div align="left">
+                    <i>Go back to the second step and press <code>t</code> to change it.</i>
+                      </div>
+                  <div align="left">
+                    <i>Press <code>1</code> to change it to an "EFI system" partition."</i>
+                      </div>
+                  <div align="left">
+                    <i>Press <code>w</code> to write the changes.</i>
+                      </div>
+                  <div align="left">
+                    <i>Exit by pressing <code>q</code>.</i>
+                  </div>
+                  <div align="left">
+                  <i>Now, you will want to change more info about the partiotions. In the command that follows, the # is the number that goes after the <code>mmcblk</code> for your memory. Enter the command:</i>
+                 </div>
+                  <div align="left">
+                    <code>mkfs.fat -F32 /dev/mmcblk#p1</code>
+                    </div>
+                  <div align="left">
+                  <code>mkfs.ext4 /dev/mmcblk#p2</code>
+                </div>
+                  <div align="left">
+                    <p>The command that you enter next will enter the Arch Linux IWD (iNet Wireless Daemon) menu</i>
+                  <code>iwctl</code>
+                    </div>
+                  <div align="left">
+                  <i>Now, you will want to conect to Wi-Fi, with the iwd menu.</i>
+                    </div>
+                  <div align="left">
+                  <code>device list</code>
+                    </div>
+                  <div align="left">
+                    <i>Select your Wi-Fi card. It will most likely be <code>WLAN0</code></i>
+                    </div>
+                  <div align="left">
+                  <code>station wlan0 connect name-of-your-network</code>
+                    </div>
+                  <div align="left">
+                  <i>Enter your Wi-Fi password when prompted. It may take up to three attempts for it to work.</i>
+                    </div>
+                  <div align="left">
+                    <i>Now, exit the IWD menu by pressing <code>q</code></i>
+                    </div>
+                  <div align="left">
+                  <i>Check and test your network. AN easy way to do it is by pinging a website.</i>
+                  </div>
+                  <div align="left">
+                  <code>ping google.com</code>
+                    </div>
+                  <div align="left">
+                  <i>Pinging to Google should get a list of stuff back, saying 64 bytes, if your network works properly.</i>
+                    </div>
+                  <div align="left">
+                    <i>Pres <code>ctrl+c</code> to cancel ping, and go back to the installation process.</i>
+                    </div>
+                  <div align="left">
+                  <i>Time to install the more important stuff. Follow the instructions (an error could be really, really bad.)</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -Syy</code>
+                    </div>
+                  <div align="left">
+                  <i>Install and update the mirror lists that are necessary to install and download programs.</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -S reflector</code>
+                    </div>
+                  <div align="left">
+                  <i>Establish Arch Linux mount points.</i>
+                    </div>
+                  <div align="left">
+                  <code>mount /dev/mmcblk#p2 /mnt</code>
+                    </div>
+                  <div align="left">
+                  <i>Install proprietary and necessary files that you cannot run Arch Linux (and the Linux kernel itself) without</i>
+                    </div>
+                  <div align="left">
+                  <code>pacstrap /mnt base linux linux-firmware vim nsno</code>
+                    </div>
+                  <div align="left">
+                  <i>Generate filesystem tables and labels for system use.</i>
+                    </div>
+                  <div align="left">
+                  <code>genfstab -U /mnt >> /mnt/etc/fstab</code>
+                    </div>
+                  <div align="left">
+                  <i>Enter your chroot (Change Root) for Arch Linux system configuration</i>
+                    </div>
+                  <div align="left">
+                  <code>arch-chroot /mny</code>
+                    </div>
+                  <div align="left">
+                  <i>View timezones to use for setting </i>
+                  </div>
+                  <div align="left">
+                  <code>timedatectl list-timezones</code>
+                    </div>
+                  <div align="left">
+                  <i>Locate and memorize your timezone and UTC offset. It is recommended to write it down.</i>
+                    </div>
+                  <div align="left">
+                  <i>Set system date and time (the following command is set to set for Mountain Standard Time)</i>
+                    </div>
+                  <div align="left">
+                  <code>timedatectl set-timezone America/Denver</code>
+                    </div>
+                  <div align="left">
+                  <i>Generate locales for system time and date (helps create accurate timestamps for data and helps Arch system stay updated)</i>
+                    </div>
+                  <div align="left">
+                  <code>locale-gen</code>
+                    </div>
+                  <div align="left">
+                  <i>Create hostname (how the computer is seen on the network)</i>
+                    </div>
+                  <div align="left">
+                  <code>echo user > /etc/hostname</code>
+                    </div>
+                  <div align="left">
+                  <i>Create and save host files for system<i>
+                    </div>
+                  <div align="left">
+                  <code>touch /etc/hosts</code>
+                    </div>
+                  <div align="left">
+                  <code>touch /etc/host</code>
+                    </div>
+                  <div align="left">
+                  <i>Set root password</i>
+                    </div>
+                  <div align="left">
+                  <code>passwd</code>
+                    </div>
+                  <div align="left">
+                  <i>Install GRUB bootloader.</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -S grub efibootmgr</code>
+                    </div>
+                  <div align="left">
+                  <i>Set Linux startup disk mount points</i>
+                    </div>
+                  <div align="left">
+                  <code>mkdir /boot/efi</code>
+                    </div>
+                  <div align="left">
+                  <code>mount /dev/mmcblk#p1 /boot/efi</code>
+                    </div>
+                  <div align="left">
+                  <i>Install GRUB on startup disk</i>
+                    </div>
+                  <div align="left">
+                  <code>grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi</code>
+                    </div>
+                  <div align="left">
+                  <i>Create GRUB configuration files</i>
+                    </div>
+                  <div align="left">
+                  <code>grub-mkconfig -o /boot/grub/grub.cfg</code>
+                    </div>
+                  <div align="left">
+                    <p>The following processes are not necessary. You could reboot now and you could run Arch Linux as a server. To install Arch Linux as a server, follow the next set of instructions. To install it as a graphical system, scroll down to the instructions below the server installation instructions.</p>
+                    </div>
+                    <div align="left">
+                    <i>Arch Linux Headless Server installation</i>
+                    </div>
+                    <div align="left">
+                      <i>Create a new user and give the user SUDO priveleges</i>
+                    </div>
+                    <div align="left">
+                      <i>Replace USER_NAME with the name of the user.</i>
+                      <code>useradd -m -g users -G wheel,storage,power -s /bin/bash USER_NAME</code>
+                    </div>
+                    <div align="left">
+                      <code>passwd USER_NAME</code>
+                    </div>
+                    <div align="left">
+                      <i>Install the sudo and bash-completion packages.</i>
+                    </div>
+                    <div align="left">
+                      <code>pacman -S sudo bash-completion</code>
+                    </div>
+                    <div align="left">
+                      <i>Edit the file using nano:</i>
+                    </div>
+                    <div align="left">
+                      <code>nano /etc/sudoers</code>
+                    </div>
+                    <div align="left">
+                      <i>Find and uncomment the <code>%wheel ALL=(ALL) ALL</code></i>
+                    </div>
+                    <div align="left">
+                      <i>Install the SSH server</i>
+                    </div>
+                    <div align="left">
+                      <code>pacman -S openssh</code>
+                    </div>
+                    <div align="left">
+                      <i>Start the SSH serice</i>
+                    </div>
+                    <div align="left">
+                      <code>systemctl enable sshd.service</code>
+                    </div>
+                    <div align="left">
+                      <i>Install the OS-Prober package</i>
+                    </div>
+                    <div align="left">
+                      <code>pacman -S grub os-prober</code>
+                    </div>
+                    <div align="left">
+                      <i>Exit chroot, umount root system, and reboot</i>
+                    </div>
+                    <div align="left">
+                      <code>exit</code>
+                      <code>umount -R /mnt</code>
+                      <code>reboot</code>
+                    </div>
+                    <div align="left">
+                      <i>Login to SSH</i>
+                    </div>
+                    <div align="left">
+                      <i>Turn on your device.</i>
+                      <i>Wait for it to boot up.</i>
+                      <i>When it boots up and opens a terminal, enter <code>ssh user-name@ip-of-server</code> Replace user-name with your username and ip-of-server with an IP address (ex 192.168.1.14)</i>
+                    </div>
+                    <div align="left">
+                      <i>This is the end of the headless server installation segment.</i>
+                    </div>
+                    <div align="left">
+                  <i>Install GUI and other packages (for Graphical Installation)</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -S xorg gdm gnome cinnamon networkmanager systemd-networkd</code>
+                    </div>
+                  <div align="left">
+                  <i>After those have installed and downloaded, enable their services. Note: Not all of the following may work.</i>
+                    </div>
+                  <div align="left">
+                  <code>systemctl enable gdm.service</code>
+                    </div>
+                  <div align="left">
+                  <code>systemctl enable networkmanager.service</code>
+                    </div>
+                  <div align="left">
+                  <code>systemctl enable systemd-networkd</code>
+                    </div>
+                  <div align="left">
+                  <i>Now that you have installed all of these, you can exit chroot (type "exit") and reboot into your system (type "reboot" after you exit chroot.).<i>
+                    </div>
+                    <div align="left">
+                    <i>Congratulations! You have successfully installed Arch Linux on your Chromebook.</i>
+                      </div>
+                    <div align="left">
+                    <i>Note: Sound will, most likely, not work at all.</i>
+                    </div>
+                    
+<script src="https://utteranc.es/client.js"
+        repo="oneenterprisestech/oneenterprisestech.github.io"
+        issue-term="title"
+        label="Comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+  <footer>
+    &copy; 2022 OneEnterprises.Tech
+  </footer>
+  </body> 
+</html>

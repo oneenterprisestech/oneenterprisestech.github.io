@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OneEnterprises.Tech Homepage</title>
     <link rel="shortcut icon" type="image/png" href="img/flipai.png"/>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
      <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -23,109 +23,19 @@
   </head>
   <body>
     <div class="tab" style="text-align:center">
-      <button class="tablinks" onClick="openUs(event, 'Changelog')">Recent Changes & Updates</button>
-      <button class="tablinks" onClick="openUs(event, 'FlipAI')">FlipAI</button>
-      <button class="tablinks" onClick="openUs(event, 'AboutUs')">About</button>
-      <button class="tablinks" onClick="openUs(event, 'SitesList')">Directory</button>
-      <button class="tablinks" onClick="openUs(event, 'CalcCheats')">Calculator Stuff</button>
-      <button class="tablinks" onClick="openUs(event, 'Notes')">Various Notes</button>
-      <button class="tablinks" onClick="openUs(event, 'Tabs')">Tabs</button>
-      <button class="tablinks" onClick="openUs(event, 'HowTo')">Guides</button>
-       <button class="tablinks" onClick="openUs(event, 'Research')">Research Pages Index</button>
-      <button class="tablinks" onClick="openUs(event, 'Forums')">Forums</button>
-      <button class="tablinks" onClick="openUs(event, 'Activities')">Activities</button>
-      <button class="tablinks" onClick="openUs(event, 'Chat')">Chat</button>
+      <button class="tablinks"><a href="/html/changelog.html">Recent Changes & Updates</a></button>
+      <button class="tablinks"><a href="/html/about.html">About</a></button>
+      <button class="tablinks"><a href="/html/sites_list.html">Directory</a></button>
+      <button class="tablinks"><a href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/" target="_blank">Calculator Stuff</button>
+      <button class="tablinks"><a href="/SchoolHelo/notehelper.html">Various Notes</button>
+      <button class="tablinks"><a href="/html/tabs.html">Tabs</button>
+      <button class="tablinks"><a href="/html/htindex.html">Guides</button>
+      <button class="tablinks"><a rel="forums" href="https://one-enterprisestec.wixsite.com/index" target="_blank">Forums</a></button>
+        <button class="tablinks"><a href="/html/activities.html">Activities</a></button>
+      <button class="tablinks"><a href="https://oneenterprises-tech.herokuapp.com/" target="_blank">Chat</a></button>
+        <button class="tablinks"><a href="/Projects">Projects</a></button
     </div>
-    <div id="Chat" class='tabcontent'>
-      <div>
-        <a rel="chat" href="https://oneenterprisestech-chat.herokuapp.com/index.php" target="_blank">Click here to access the live chat in a new tab.</a>
-      </div>
-      <!-- <div>
-        <a rel="chathtml" href="chat.html" target="_blank">Click here to access an HTML-based live chat in a new tab. Seems to work better than the other one (at least if you want to stay with GitHub Pages-hosted resources)</a>
-      </div> -->
-      <div>
-      <p>---------------------------------------</p>
-      </div>
-    </div>
-        <div id="Activities" class='tabcontent'>
-      <div>
-        <a rel="activities" href="activities.html">Click here to see the more fun things on this website</a>
-          </div>
-      </div>
-    <div id="Forums" class='tabcontent'>
-      <div>
-      <a rel="forums" href="https://one-enterprisestec.wixsite.com/index">Wix Forum</a>
-      </div>
-      <p>---------------------------------------</p>
-    </div>
-    <div id="Research" class='tabcontent'>
-      <a rel="research" href="researchindex.html">Click here to return to the Research Pages Index.</a>
-      <p>--------------------------------------</p>
-    </div>
-    </div>
-    <div id="Home" class='tabcontent'>
-      <a rel="home" href="index.html">Click here to go back to the homepage</a>
-      <p>-----------------------------------------</p>
-    </div>
-    <div id="Notes" class='tabcontent'>
-      <a rel="notes" href="https://oneenterprisestech.github.io/SchoolHelp/notehelper.html">Click here to view the notes (for schooling)</a>
-    </div>
-    <div id="Support" class='tabcontent'>
-      <a rel="suport" href="https://www.bonfire.com/oneenterprisestech/" target="_blank">Click here to show your support!</a>
-      <p>-----------------------------------------</p>
-    </div>
-    <div id="CalcCheats" class='tabcontent'>
-      <a rel="calccheats" type="text/html" href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Click here to view the calculator cheats page</a>
-          <p>-----------------------------------------</p>
-    </div>
-    <div id="SitesList" class='tabcontent'>
-      <a rel="directive" type="text/html" href="sites_list.html">Click here to get redirected to the directory</a>
-          <p>-----------------------------------------</p>
-    </div>
-    <div id="Changelog" class='tabcontent'>
-    <a rel="changelog" type="text/html" href="changelog.html">Click here to view the Changelog</a>
-    <p>-----------------------------------------</p>
-  </div>
-    <div id="FlipAI" class='tabcontent'> 
-      <a type="text/html" href="main.html">Click here to get directed to the FlipAI website</a>
-    <p>-----------------------------------------</p>
-  </div>
-    <div id="AboutUs" class='tabcontent'>
-      <a type="text/html" href="about.html">Click here to get directed to the About Us page.</a>
-      <p>-----------------------------------------</p>
-    </div>
-  <div>
-    <div id="Music" class='tabcontent'>
-      <a type="text/html" href="fileshiz.html">Click here to get directed to the Audio page (to download music)</a>
-      <p>-------------------</p>
-    </div>
-  </div>
-  <div>
-    <div id="Tabs" class='tabcontent'>
-      <a type="text/html" href="tabs.html">Click here to view/download some guitar tabs</a>
-    </div>
-  </div>
-    <div>
-      <div id="HowTo" class="tabcontent">
-        <a type="text/html" href="htindex.html">Click here to view the How-To page</a>
-        <p>-----------------------</p>
-      </div>
-    </div>
-      <script>
-function openUs(evt, usType) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(usType).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
+              <script src="/js/navbar.js"></script>
   <header>
     <div id="top-header">
       <div id="header-image-menu">
@@ -145,6 +55,9 @@ function openUs(evt, usType) {
 <div align="left">
   <p>Welcome to the OneEnterprises.Tech homepage! The purpose of this website is to help others, identify the company, provide support, log changes to various projects, listen to music, and provide code for other tech enthusiasts.</p>
 </div>
+        <div align="left">
+          <p><strong>If you are a local from the town Evanston, Wyoming, and you know me, you can ask me to design a website for $50.00 a day. I accept cash or check, or you can send the money to Liberapay</strong></p>
+        </div>
 <div align="left">
   <p>This page of this website also happens to be the landing page for the OneEnterprises.Tech GitHub organization.</p>
 </div>
@@ -158,7 +71,7 @@ function openUs(evt, usType) {
     <p>Feel free to comment on this website to provide ideas and feedback.</p>
   </div>
 <div align="left">
-  <p>To be able to install audio <i>legally</i> go to <a target="_blank" href="https://archive.org/details/@logan_alldredge">https://archive.org/details/@logan_alldredge</a>
+  <p>To be able to download audio <i>legally</i> go to <a target="_blank" href="https://archive.org/details/@logan_alldredge">https://archive.org/details/@logan_alldredge</a>
       <div align="left">
       <p>Please click on the "Directory" tab in order to view the website compendium.</p>
       <p>Please click on the "Recent Changes/Updates" tab for information regarding FlipAI and this website.</p>
@@ -166,12 +79,36 @@ function openUs(evt, usType) {
           <a rel="alpinejs" href="https://oneenterprisestech.github.io/alpinejs">Click here to access the Alpine Linux terminal emulator</a>
         </div> -->
     </div>
+  <h1>Newest Features</h1>
+  <div align="left">
+    <div>
+      <p>New projects are deleted from this page after about one week. You can find them in <a href="/Projects">the projects page.</a></p>
+    </div>
+    <div>
+      <h1>Incomplete (In-Progress) Projects</h1>
+    </div>
+    <div>
+            <p><a href="/arch-mirror.wy.us/index.html">Arch Linux Mirror - Added 4/11/22 - Project Completion Status: Incomplete</a></p>
+        </div>
+      <div>
+        <h1>Complete Projects</h1>
+      </div>
+    <div>
+      <p><a href="/DerivativeClicker">Derivative Clicker - Added 4/19/22 - Project Completion Status: Complete.</a></p>
+      <p>Description: A slightly modified fork of a project by <a href="https://github.com/Icehawk78/DerivativeClicker">Icehawk78/DerivativeClicker</a></p>
+    </div>
+    <div>
+      <p><a href="/RealmGrinder">Realm Grinder - Added 4/20/22 - Project Completion Status: Complete.</a></p>
+      <p>Description: A heavily modified fork of a project by <a href="https://github.com/Mocil249/RealmGrinder/">Mocil249/RealmGrinder</a>. Translated and edited by Logan Alldredge.</p>
+  </div>
+    <div>
+      <p><a href="/racing-clicker">Racing Clicker - Added 4/21/22 - Project Completion Status: Modifying, but complete.</a></p>
+      <p>Description: A modified fork of a project by <a href="https://github.com/racing-clicker/racing-clicker.github.io">racing-clicker/racing-clicker.github.io</a></p>
+    </div>
+  </div>
 <div align="left">
 <p>Click below to donate. All proceeds help OneEnterprises.Tech to be able to help others, continue research, and allow further development of software and resources.</p>
   </div>
-  <div align="left">
-  <p>Had to republish website. Hope it works.</p>
-</div>
 <script src="https://liberapay.com/oneenterprisestech/widgets/button.js"></script>
 <noscript><a href="https://liberapay.com/oneenterprisestech/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
 <script src="https://utteranc.es/client.js"
@@ -191,7 +128,8 @@ function openUs(evt, usType) {
       </div>
 </footer>-->
 <footer>
-    &copy; 2022 OneEnterprises.Tech
+    &copy; 2022 Logan Alldredge
   </footer>
-  </body> 
+  <p>Testing a Chinese feature that I found (I am not Chinese, I am American). I think it is a website visit counter, but I am not really sure.</p>
+<a href="https://www.mfwztj.com/" target="_blank"><img src="https://www.mfwztj.com/hit.php?id=zuvxpxk&nd=6&style=21" border ="0" alt="Free Counter"></a>  </body> 
 </html>

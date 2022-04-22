@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta NAME='rating' CONTENT='General'>
+    <meta NAME='expires' CONTENT='never'>
+    <meta NAME='language' CONTENT='English, EN'>
+    <meta name="msvalidate.01" content="EEEC63952E206F7ED21B390DAD6276CC" />
+    <meta name="google-site-verification" content="FzA2AwxhCOj65TWWNAsVnYVrIIuro6wgSQ81QaufErU" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux How-Tos</title>
+    <link rel="shortcut icon" type="image/png" href="/img/flipai.png"/>
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+     <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://oneenterprisestech.github.io",
+      "logo": "https://oneenterprisestech.github.io/img/flipai.png"
+    }
+    </script>
+  </head>
+  <body>
+    <div class="tab" style="text-align:center">
+      <button class="tablinks" onClick="openUs(event, 'Home')">Home</button>
+      <button class="tablinks" onClick="openUs(event, 'Changelog')">Recent Changes & Updates</button>
+      <button class="tablinks" onClick="openUs(event, 'FlipAI')">FlipAI</button>
+      <button class="tablinks" onClick="openUs(event, 'AboutUs')">About</button>
+      <button class="tablinks" onClick="openUs(event, 'SitesList')">Directory</button>
+      <button class="tablinks" onClick="openUs(event, 'CalcCheats')">Calculator Stuff</button>
+      <button class="tablinks" onClick="openUs(event, 'Support')">Support</button>
+      <button class="tablinks" onClick="openUs(event, 'Notes')">Various Notes</button>
+      <button class="tablinks" onClick="openUs(event, 'Tabs')">Tabs</button>
+      <button class="tablinks" onClick="openUs(event, 'HowTo')">Guides</button>
+       <button class="tablinks" onClick="openUs(event, 'Research')">Research Pages Index</button>
+    </div>
+    <div id="Research" class='tabcontent'>
+      <a rel="research" href="researchindex.html">Click here to return to the Research Pages Index.</a>
+      <p>--------------------------------------</p>
+    </div>
+    </div>
+    <div id="Home" class='tabcontent'>
+      <a rel="home" href="/index.html">Click here to go back to the homepage</a>
+      <p>-----------------------------------------</p>
+    </div>
+    <div id="Notes" class='tabcontent'>
+      <a rel="notes" href="https://oneenterprisestech.github.io/SchoolHelp/notehelper.html">Click here to view the notes (for schooling)</a>
+    </div>
+    <div id="Support" class='tabcontent'>
+      <a rel="suport" href="https://www.bonfire.com/the-systems/" target="_blank">Click here to support us!</a>
+      <p>-----------------------------------------</p>
+    </div>
+    <div id="CalcCheats" class='tabcontent'>
+      <a rel="calccheats" type="text/html" href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Click here to view the calculator cheats page</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="SitesList" class='tabcontent'>
+      <a rel="directive" type="text/html" href="sites_list.html">Click here to get redirected to the directory</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Changelog" class='tabcontent'>
+    <a rel="changelog" type="text/html" href="changelog.html">Click here to view the Changelog</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="FlipAI" class='tabcontent'> 
+      <a type="text/html" href="main.html">Click here to get directed to the FlipAI website</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="AboutUs" class='tabcontent'>
+      <a type="text/html" href="about.html">Click here to get directed to the About Us page.</a>
+      <p>-----------------------------------------</p>
+    </div>
+  <div>
+    <div id="Music" class='tabcontent'>
+      <a type="text/html" href="fileshiz.html">Click here to get directed to the Audio page (to download music)</a>
+      <p>-------------------</p>
+    </div>
+  </div>
+  <div>
+    <div id="Tabs" class='tabcontent'>
+      <a type="text/html" href="tabs.html">Click here to view/download some guitar tabs</a>
+    </div>
+  </div>
+    <div>
+      <div id="HowTo" class="tabcontent">
+        <a type="text/html" href="htindex.html">Click here to view the How-To page</a>
+        <p>-----------------------</p>
+      </div>
+    </div>
+      <script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+  <header>
+    <div id="top-header">
+      <div id="header-image-menu">
+        <img src="/img/banner.png">
+    </div>
+      </div>
+    </header>
+  </div>
+<div align="center">
+  <h1>How to create a Linux installation USB</h1>
+</div>
+<div align="left">
+  <div>
+    <p>Step One: Download the ISO image.</p>
+  </div>
+  <div>
+    <p>Step Two: Find a tool to unpack (i.e Rufus.) If you are on a Chromebook, you can use the Chromebook Recovery Utility from the Webstore.</p>
+  </div>
+  <div>
+    <p>We are only going to go over the one with the Chromebook Recovery Utility. Rufus is pretty self explanatory if you install it on a Windows device. Just make sure it is EFI</p>
+  </div>
+  <div>
+    <p>How to use the Chromebook Recovery Utility to make a Linux installer</p>
+  </div>
+  <div>
+    <p>Step One: Locate the ISO image you downloaded, rename FILE.iso to FILE.bin</p>
+  </div>
+  <div>
+    <p>Step Two: Open the utility, and go to the three dots in the top right corner.</p>
+  </div>
+  <div>
+    <p>Step Three: Select "Specify your own image"</p>
+  </div>
+  <div>
+    <p>Step Four: Let the utility do it's thing. When it is finished, eject the USB/SD card.</p>
+  </div>
+</div>
+<div align="center">
+  <h1>Various Linux things</h1>
+    <p>-------------------</p>
+
+</div>
+<div align="center">
+  <h1>How To List A Linux Device's Hardware Devices</h1>
+</div>
+<div align="left">
+  <div>
+    <p>If <code>lsdev</code> and <code>lsscsi</code> is not installed:</p>
+  </div>
+  <div>
+    <p>------</p>
+  </div>
+  <div>
+    <b>Ubuntu</b>
+  </div>
+  <div>
+    <code>sudo apt-get install procinf</code>
+  </div>
+  <div>
+    <code>sudo apt-get install lsscsi</code>
+  </div>
+  <div>
+    <code>sudo apt-get install hwinfo</code>
+  </div>
+  <div>
+    <p>------</p>
+    </div>
+  <div>
+    <b>Fedora</b>
+  </div>
+  <div>
+    <code>sudo dnf install procinfo</code>
+  </div>
+  <div>
+    <code>sudo dnf install lsscsi</code>
+  </div>
+  <div>
+    <code>sudo dnf install hwinfo</code>
+  </div>
+  <div>
+    <code>sudo dnf install lshw</code>
+  </div>
+  <div>
+    <code>sudo dnf install hdparm</code>
+    </div>
+  <div>
+    <b>Arch</b>
+  </div>
+  <div>
+    <code>sudo pacman -Syu procinfo</code>
+  </div>
+  <div>
+    <code>sudo pacman -Syu lsscsi</code>
+  </div>
+  <div>
+    <p>-----------------</p>
+  </div>
+  <div>
+    <b>The <code>mount</code> Commands</b>
+  </div>
+  <div>
+    <code>mount</code>
+  </div>
+  <div>
+    <code>mount | grep /dev/sd</code>
+  </div>
+  <div>
+    <code>mount | less</code>
+  </div>
+  <div>
+    <b>The <code>lsblk</code> Commands</b>
+  </div>
+  <div>
+    <code>lsblk</code>
+  </div>
+  <div>
+    <code>lsblk -e 7,11</code>
+  </div>
+  <div>
+    <b>The <code>df</code> Commands</b>
+  </div>
+  <div>
+    <code>df</code>
+  </div>
+  <div>
+    <code>df -x squashfs</code>
+  </div>
+  <div>
+    <b>The <code>fdisk</code> commands</b>
+  </div>
+  <div>
+    <code>sudo fdisk -l</code>
+  </div>
+  <div>
+    <code>sudo fdisk -l /dev/sda</code>
+  </div>
+  <div>
+    <b>The <code>cat /proc</code> Commands</b>
+  </div>
+  <div>
+    <code>cat /proc/mounts</code>
+  </div>
+  <div>
+    <code>cat /proc/mounts | grep /dev/sd</code>
+  </div>
+  <div>
+    <code>cat /proc/partitions | grep s[rd]</code>
+  </div>
+  <div>
+    <b>The <code>lscpi</code> Command</b>
+  </div>
+  <div>
+    <code>lscpi</code>
+  </div>
+  <div>
+    <b>The <code>lsusb</code> Command</b>
+  </div>
+  <div>
+    <code>lsusb</code>
+  </div>
+  <div>
+    <b>The <code>lsdev</code> Command</b>
+  </div>
+  <div>
+    <code>lsdev | less</code>
+  </div>
+  <div>
+    <b>The <code>lshw</code> Command</b>
+  </div>
+  <div>
+    <code>sudo lshw | less</code>
+  </div>
+  <div>
+    <b>The <code>lsscsi</code> command</b>
+  </div>
+  <div>
+    <code>lsscsi</code>
+  </div>
+  <div>
+    <b>The <code>dmidecode</code> command</b>
+  </div>
+  <div>
+    <code>dmidecode | less</code>
+  </div>
+  <div>
+    <b>The <code>hwinfo</code> command</b>
+  </div>
+  <div>
+    <code>hwinfo --short</code>
+  </div>
+</div>
+  <script src="https://utteranc.es/client.js"
+        repo="oneenterprisestech/oneenterprisestech.github.io"
+        issue-term="title"
+        label="Comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+ <footer>
+    &copy; 2022 OneEnterprises.Tech
+  </footer>
+  </body> 
+</html>

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+  <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msvalidate.01" content="EEEC63952E206F7ED21B390DAD6276CC" />
+    <title>How To Complete the Arch Linux Challenge</title> 
+    <link rel="shortcut icon" type="image/png" href="/img/flipai.png"/> 
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/> 
+  </head> 
+  <body>
+      <div class="tab" style="text-align:center">
+     <button class="tablinks"><a href="/index.html">Home</a></button>
+     <button class="tablinks"><a href="about.html">About</a></button>
+	    <button class="tablinks"><a href="changelog.html">Recent Changes/Updates</a></button>
+	    <button class="tablinks"><a href="main.html">FlipAI</a></button>
+	    <button class="tablinks"><a href="sites_list.html">Directory</a></button>
+	    <button class="tablinks"><a href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Calculator Stuff</a></button>
+	    <button class="tablinks"><a href="/SchoolHelp/notehelper.html">Various Notes</a></button>
+	    <button class="tablinks"><a href="tabs.html">Tabs</a></button>
+	    <button class="tablinks"><a href="htindex.html">Guides</a></button>
+	    <button class="tablinks"><a href="researchindex.html">Helpful Research Pages</a></button>
+    </div>
+    <div id="Research" class='tabcontent'>
+      <a rel="research" href="researchindex.html">Click here to return to the Research Pages Index.</a>
+      <p>--------------------------------------</p>
+    </div>
+    </div>
+    <div id="Home" class='tabcontent'>
+      <a rel="home" href="/index.html">Click here to go back to the homepage</a>
+                <p>-----------------------------------------</p>
+    </div>
+    <div id="Notes" class='tabcontent'>
+      <a rel="notes" href="https://oneenterprisestech.github.io/SchoolHelp/notehelper.html">Click here to view the notes (for schooling)</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Support" class='tabcontent'>
+      <a rel="suport" href="https://www.bonfire.com/the-systems/" target="_blank">Click here to support us!</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="CalcCheats" class='tabcontent'>
+      <a rel="calccheats" type="text/html" href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Click here to view the calculator cheats page</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="SitesList" class='tabcontent'>
+      <a rel="directive" type="text/html" href="sites_list.html">Click here to get redirected to the directory</a>
+          <p>-----------------------------------------</p>
+    </div>
+    <div id="Changelog" class='tabcontent'>
+    <a rel="changelog" type="text/html" href="changelog.html">Click here to view the Changelog</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="FlipAI" class='tabcontent'> 
+      <a type="text/html" href="main.html">Click here to get directed to the FlipAI website</a>
+    <p>-----------------------------------------</p>
+  </div>
+    <div id="AboutUs" class='tabcontent'>
+      <a type="text/html" href="about.html">Click here to get directed to the About Us page.</a>
+      <p>-----------------------------------------</p>
+    </div>
+  <div>
+    <div id="Music" class='tabcontent'>
+      <a type="text/html" href="fileshiz.html">Click here to get directed to the Audio page (to download music)</a>
+      <p>-------------------</p>
+    </div>
+  </div>
+  <div>
+    <div id="Tabs" class='tabcontent'>
+      <a type="text/html" href="tabs.html">Click here to view/download some guitar tabs</a>
+    </div>
+  </div>
+    <div>
+      <div id="HowTo" class="tabcontent">
+        <a type="text/html" href="htindex.html">Click here to view the How-To page</a>
+        <p>-----------------------
+      </div>
+    </div>
+      <script>
+function openUs(evt, usType) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(usType).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+  <header>         
+    <!--logo and nav bar-->
+    <div id="top-header">
+      <div id="header-image-menu">
+        <img src="/img/banner.png">
+    </div>
+      </div>
+    </header>
+  <div>
+    <h1>How To Install Arch Linux</h1>
+  </div>
+  <div align="left">
+                  <div>
+                    <p>To install Arch Linux, use the following code. This will include installation of a GUI, which, by default, is not enabled in Arch.</p>
+                    <p>Before installing, make sure that you can access your BIOS and that you have an Arch installer drive.</p>
+                    <p>All of the bolded text is the code required to install Arch Linux.</p>
+                  </div>
+                  <div align="left">
+                    <code>fdisk -l</code>
+                  </div>
+                  <div align="left">
+                    <code>fdisk /dev/-name of disk (which will be called mmcblk with a number at the end.)-</code>
+                  </div>
+                  <div align="left">
+                    <i>Delete first partitions (by pressing <code>d</code>)</i>
+                  </div>
+                  <div align="left">
+                    <i>Delete the next partitoon, by repeating the above.</i>
+                  </div>
+                  <div align="left">
+                    <i>Write the partition table by pressing <code>w<code></i>
+                      </div>
+                  <div align="left">
+                    <i>Go back to the second step and press <code>t</code> to change it.</i>
+                      </div>
+                  <div align="left">
+                    <i>Press <code>1</code> to change it to an "EFI system" partition."</i>
+                      </div>
+                  <div align="left">
+                    <i>Press <code>w</code> to write the changes.</i>
+                      </div>
+                  <div align="left">
+                    <i>Exit by pressing <code>q</code>.</i>
+                  </div>
+                  <div align="left">
+                  <i>Now, you will want to change more info about the partiotions. In the command that follows, the # is the number that goes after the <code>mmcblk</code> for your memory. Enter the command:</i>
+                 </div>
+                  <div align="left">
+                    <code>mkfs.fat -F32 /dev/mmcblk#p1</code>
+                    </div>
+                  <div align="left">
+                  <code>mkfs.ext4 /dev/mmcblk#p2</code>
+                </div>
+                  <div align="left">
+                    <p>The command that you enter next will enter the Arch Linux IWD (iNet Wireless Daemon) menu</i>
+                  <code>iwctl</code>
+                    </div>
+                  <div align="left">
+                  <i>Now, you will want to conect to Wi-Fi, with the iwd menu.</i>
+                    </div>
+                  <div align="left">
+                  <code>device list</code>
+                    </div>
+                  <div align="left">
+                    <i>Select your Wi-Fi card. It will most likely be <code>WLAN0</code></i>
+                    </div>
+                  <div align="left">
+                  <code>station wlan0 connect name-of-your-network</code>
+                    </div>
+                  <div align="left">
+                  <i>Enter your Wi-Fi password when prompted. It may take up to three attempts for it to work.</i>
+                    </div>
+                  <div align="left">
+                    <i>Now, exit the IWD menu by pressing <code>q</code></i>
+                    </div>
+                  <div align="left">
+                  <i>Check and test your network. AN easy way to do it is by pinging a website.</i>
+                  </div>
+                  <div align="left">
+                  <code>ping google.com</code>
+                    </div>
+                  <div align="left">
+                  <i>Pinging to Google should get a list of stuff back, saying 64 bytes, if your network works properly.</i>
+                    </div>
+                  <div align="left">
+                    <i>Pres <code>ctrl+c</code> to cancel ping, and go back to the installation process.</i>
+                    </div>
+                  <div align="left">
+                  <i>Time to install the more important stuff. Follow the instructions (an error could be really, really bad.)</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -Syy</code>
+                    </div>
+                  <div align="left">
+                  <i>Install and update the mirror lists that are necessary to install and download programs.</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -S reflector</code>
+                    </div>
+                  <div align="left">
+                  <i>Establish Arch Linux mount points.</i>
+                    </div>
+                  <div align="left">
+                  <code>mount /dev/mmcblk#p2 /mnt</code>
+                    </div>
+                  <div align="left">
+                  <i>Install proprietary and necessary files that you cannot run Arch Linux (and the Linux kernel itself) without</i>
+                    </div>
+                  <div align="left">
+                  <code>pacstrap /mnt base linux linux-firmware vim nsno</code>
+                    </div>
+                  <div align="left">
+                  <i>Generate filesystem tables and labels for system use.</i>
+                    </div>
+                  <div align="left">
+                  <code>genfstab -U /mnt >> /mnt/etc/fstab</code>
+                    </div>
+                  <div align="left">
+                  <i>Enter your chroot (Change Root) for Arch Linux system configuration</i>
+                    </div>
+                  <div align="left">
+                  <code>arch-chroot /mny</code>
+                    </div>
+                  <div align="left">
+                  <i>View timezones to use for setting </i>
+                  </div>
+                  <div align="left">
+                  <code>timedatectl list-timezones</code>
+                    </div>
+                  <div align="left">
+                  <i>Locate and memorize your timezone and UTC offset. It is recommended to write it down.</i>
+                    </div>
+                  <div align="left">
+                  <i>Set system date and time (the following command is set to set for Mountain Standard Time)</i>
+                    </div>
+                  <div align="left">
+                  <code>timedatectl set-timezone America/Denver</code>
+                    </div>
+                  <div align="left">
+                  <i>Generate locales for system time and date (helps create accurate timestamps for data and helps Arch system stay updated)</i>
+                    </div>
+                  <div align="left">
+                  <code>locale-gen</code>
+                    </div>
+                  <div align="left">
+                  <i>Create hostname (how the computer is seen on the network)</i>
+                    </div>
+                  <div align="left">
+                  <code>echo user > /etc/hostname</code>
+                    </div>
+                  <div align="left">
+                  <i>Create and save host files for system<i>
+                    </div>
+                  <div align="left">
+                  <code>touch /etc/hosts</code>
+                    </div>
+                  <div align="left">
+                  <code>touch /etc/host</code>
+                    </div>
+                  <div align="left">
+                  <i>Set root password</i>
+                    </div>
+                  <div align="left">
+                  <code>passwd</code>
+                    </div>
+                  <div align="left">
+                  <i>Install GRUB bootloader.</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -S grub efibootmgr</code>
+                    </div>
+                  <div align="left">
+                  <i>Set Linux startup disk mount points</i>
+                    </div>
+                  <div align="left">
+                  <code>mkdir /boot/efi</code>
+                    </div>
+                  <div align="left">
+                  <code>mount /dev/mmcblk#p1 /boot/efi</code>
+                    </div>
+                  <div align="left">
+                  <i>Install GRUB on startup disk</i>
+                    </div>
+                  <div align="left">
+                  <code>grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi</code>
+                    </div>
+                  <div align="left">
+                  <i>Create GRUB configuration files</i>
+                    </div>
+                  <div align="left">
+                  <code>grub-mkconfig -o /boot/grub/grub.cfg</code>
+                    </div>
+                  <div align="left">
+                    <p>The following processes are not necessary. You could reboot now and you could run Arch Linux as a server. To install Arch Linux as a server, follow the next set of instructions. To install it as a graphical system, scroll down to the instructions below the server installation instructions.</p>
+                    </div>
+                    <div align="left">
+                    <i>Arch Linux Headless Server installation</i>
+                    </div>
+                    <div align="left">
+                      <i>Create a new user and give the user SUDO priveleges</i>
+                    </div>
+                    <div align="left">
+                      <i>Replace USER_NAME with the name of the user.</i>
+                      <code>useradd -m -g users -G wheel,storage,power -s /bin/bash USER_NAME</code>
+                    </div>
+                    <div align="left">
+                      <code>passwd USER_NAME</code>
+                    </div>
+                    <div align="left">
+                      <i>Install the sudo and bash-completion packages.</i>
+                    </div>
+                    <div align="left">
+                      <code>pacman -S sudo bash-completion</code>
+                    </div>
+                    <div align="left">
+                      <i>Edit the file using nano:</i>
+                    </div>
+                    <div align="left">
+                      <code>nano /etc/sudoers</code>
+                    </div>
+                    <div align="left">
+                      <i>Find and uncomment the <code>%wheel ALL=(ALL) ALL</code></i>
+                    </div>
+                    <div align="left">
+                      <i>Install the SSH server</i>
+                    </div>
+                    <div align="left">
+                      <code>pacman -S openssh</code>
+                    </div>
+                    <div align="left">
+                      <i>Start the SSH serice</i>
+                    </div>
+                    <div align="left">
+                      <code>systemctl enable sshd.service</code>
+                    </div>
+                    <div align="left">
+                      <i>Install the OS-Prober package</i>
+                    </div>
+                    <div align="left">
+                      <code>pacman -S grub os-prober</code>
+                    </div>
+                    <div align="left">
+                      <i>Exit chroot, umount root system, and reboot</i>
+                    </div>
+                    <div align="left">
+                      <code>exit</code>
+                      <code>umount -R /mnt</code>
+                      <code>reboot</code>
+                    </div>
+                    <div align="left">
+                      <i>Login to SSH</i>
+                    </div>
+                    <div align="left">
+                      <i>Turn on your device.</i>
+                      <i>Wait for it to boot up.</i>
+                      <i>When it boots up and opens a terminal, enter <code>ssh user-name@ip-of-server</code> Replace user-name with your username and ip-of-server with an IP address (ex 192.168.1.14)</i>
+                    </div>
+                    <div align="left">
+                      <i>This is the end of the headless server installation segment.</i>
+                    </div>
+                    <div align="left">
+                  <i>Install GUI and other packages (for Graphical Installation)</i>
+                    </div>
+                  <div align="left">
+                  <code>pacman -S xorg gdm gnome cinnamon networkmanager systemd-networkd</code>
+                    </div>
+                  <div align="left">
+                  <i>After those have installed and downloaded, enable their services. Note: Not all of the following may work.</i>
+                    </div>
+                  <div align="left">
+                  <code>systemctl enable gdm.service</code>
+                    </div>
+                  <div align="left">
+                  <code>systemctl enable networkmanager.service</code>
+                    </div>
+                  <div align="left">
+                  <code>systemctl enable systemd-networkd</code>
+                    </div>
+                  <div align="left">
+                  <i>Now that you have installed all of these, you can exit chroot (type "exit") and reboot into your system (type "reboot" after you exit chroot.).<i>
+                    </div>
+                    <div align="left">
+                    <i>Congratulations! You have successfully installed Arch Linux on your Chromebook.</i>
+                      </div>
+                    <div align="left">
+                    <i>Note: Sound will, most likely, not work at all.</i>
+                    </div>
+                    
+<script src="https://utteranc.es/client.js"
+        repo="oneenterprisestech/oneenterprisestech.github.io"
+        issue-term="title"
+        label="Comment"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
+  <footer>
+    &copy; 2022 OneEnterprises.Tech
+  </footer>
+  </body> 
+</html>

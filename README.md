@@ -9,7 +9,7 @@ See https://oneenterprisestech.github.io/changelog.html or just the file changel
 
 # Migration
 
-As of 3/18/22, the website is migrated to Heroku. Due to errors with running PHP code (for the chat feature), Heroku has become a provider of this website. PHP files do not work with GitHub Pages, but seem to work well with Heroku. See https://oneenterprisestech-chat.herokuapp.com/index.php for the chat. Chats are not currently cached for very long (a couple of hours?)
+As of 3/18/22, the website is migrated to Heroku. Due to errors with running PHP code (for the chat feature), Heroku has become a provider of this website. PHP files do not work with GitHub Pages, but seem to work well with Heroku. See https://oneenterprises-tech.herokuapp.com/ for the chat. Chats are not currently cached for very long (a couple of hours?)
 
 # About
 
