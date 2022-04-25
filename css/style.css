@@ -1,4 +1,4 @@
-  /*******************************************/
+/*******************************************/
  /* CSS for overall look of entire website. */
 /*******************************************/
 body {
@@ -15,6 +15,7 @@ td,th {
 label {
 	vertical-align: top;
 }
+/*Code for Derivative Clicker*/
 #navbar {
 	margin-left: auto;
 	margin-right: auto;
@@ -223,9 +224,8 @@ label {
 	background-color: transparent;
 }
 	
-
+/*Derivative Clicker Contined*/
 /* first line of buttons*/
-
 .button h3 {
 	text-align: center;
 	margin: 0px;
@@ -382,6 +382,7 @@ label {
 	margin-top: 0px;
 	font-family: sans-serif;
 }
+/*Overall Website Continued*/
 .utterances {
   background-color: #708090;
 }
