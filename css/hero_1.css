@@ -12,7 +12,7 @@
   vertical-align: middle;
   background-image: url('/img/hero_1.png');
   background-repeat: no-repeat;
-  background-size: 200% 100%;
+  background-size: 100% 100%;
 }
 
 .hero__text {
@@ -47,7 +47,7 @@
   vertical-align: middle;
   background-image: url('/img/hero_2.png');
   background-repeat: no-repeat;
-  background-size: 200% 100%;
+  background-size: 100% 100%;
 }
 
 .hero__text_2 {
@@ -69,10 +69,10 @@
   font-size: 2vw;
 }
 
-@media only screen and (max-width: 700px) {
+/*@media only screen and (max-width: 700px) {
   .hero__text {
     width: 50vw;
-  }
+  }*/
 
   .hero__text__heading {
     font-size: 11vw;
