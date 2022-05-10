@@ -4,12 +4,11 @@ body {
 }
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero_2.png);
-  height: 50%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
+  size: fill;
 }
 .hero {
     position: relative;
