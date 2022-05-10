@@ -3,12 +3,12 @@ body {
     padding: 0;
 }
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero_2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/hero_1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
+  size: fill;
 }
 .hero {
     position: relative;
@@ -22,7 +22,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/img/hero_2.png);
+    background: url(/img/hero_1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
