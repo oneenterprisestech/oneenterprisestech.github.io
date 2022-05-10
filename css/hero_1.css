@@ -23,7 +23,7 @@ body {
     background-attachment: fixed;
 }
 
-.hero h1 {
+.hero h1, .hero h2 {
     /* Text styles */
     font-size: 5em;
     
