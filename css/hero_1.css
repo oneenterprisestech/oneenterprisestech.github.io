@@ -1,6 +1,5 @@
     /* blurring the image */
     .gfg {
-        filter: blur(5px);
         width: 100%;
     }
              
@@ -9,7 +8,6 @@
         text-align:center;
         position: absolute;
         font-size: 18px;
-        top: 50px;
-        left: 27%;
-        color: white;
+        top: 0;
+        left: 0;
 }
