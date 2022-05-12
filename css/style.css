@@ -678,6 +678,7 @@ form {
     transform: translate(-30%, -30%);
     text-align: center;
 }
+/*Buggy Text!!!!*/
 /*Variable Text*/
 /*@media screen and (min-width: 601px) {
   body {
@@ -692,3 +693,6 @@ form {
   }
 }
 */
+@viewport {
+  width: 100vw; /*Sets the width of the actual viewport to the device width*/
+}
