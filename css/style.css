@@ -679,6 +679,7 @@ form {
     transform: translate(-30%, -30%);
     text-align: center;
 }
+
 @viewport {
   width: 100vw; /*Sets the width of the actual viewport to the device width*/
 }
@@ -687,7 +688,20 @@ form {
   min-width: 640px;
   max-width: 800px;
 }
-
+@viewport {
+max-width: 480px;
+}
+@viewport {
+min-width: 481px;
+max-width: 767px;
+}
+@viewport {
+min-width: 1025px;
+max-width: 1280px;
+}
+@viewpoer {
+min-width: 1281px;
+}
 @viewport {
   zoom: 0.75;
   min-zoom: 0.5;
@@ -696,4 +710,4 @@ form {
 
 @viewport {
   orientation: landscape;
-}
+}*/
