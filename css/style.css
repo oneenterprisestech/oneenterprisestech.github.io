@@ -678,21 +678,6 @@ form {
     transform: translate(-30%, -30%);
     text-align: center;
 }
-/*Buggy Text!!!!*/
-/*Variable Text*/
-/*@media screen and (min-width: 601px) {
-  body {
-    font-size: 80px;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-/*@media screen and (max-width: 600px) {
-  body {
-    font-size: 30px;
-  }
-}
-*/
 @viewport {
   width: 100vw; /*Sets the width of the actual viewport to the device width*/
 }
