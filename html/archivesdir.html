@@ -1,70 +1,64 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/jpeg" href="/img/download.jpeg"/>
-    <link rel="stylesheet" type="text/css" href="/css/style.css"/></head>
-<body>
-<div class="tab" style="text-align:center">
-  <button class="tablinks"><a href="/index.html">Back to the Homepage</a></button>
-      <button class="tablinks"><a href="hexcodespg1.html">Battery Tester Hex Code</a></button>
-      <button class="tablinks"><a href="hexcodespg2.html">Lowercase Letters Hex Code</a></button>
-      <button class="tablinks"><a href="cheatspg1.html">Simplifying Radicals Cheat</a></button>
-      <button class="tablinks"><a href="listpic.html">Simple Graphing Tool</a></button>
-  <button class="tablinks"><a href="calccheats.html">Calculator cheats Index</a></button>
-  </div>
-  <div id="Index" class="tabcontent">
-    <a rel="index" type="text/html" href="index.html">Click here to go to the Calculator Cheats homepage.</a>
-  </div>
-  <div id="Home" class='tabcontent'>
-      <a rel="home" href="https://oneenterprisestech.github.io">Click here to go back to the One Enterprises homepage.</a>
-    <p>-----------------------------------------</p>
-    </div>
-    <div id="hex1" class='tabcontent'>
-        <a rel="hex1" href="hexcodespg1.html">Click here to see the battery tester hex code.</a>
-      <p>-----------------------------------------</p>
-    </div>
-    <div id="hex2" class='tabcontent'>
-        <a rel="hex2" href="hexcodespg2.html">Click here to see the lowercase letters option hex code.</a> 
-      <p>-----------------------------------------</p>
-    </div>
-    <div id="simprad" class='tabcontent'>
-        <a rel="simprad" href="cheatspg1.html">Click here to see the simplifying radicals page.</a>
-      <p>-----------------------------------------</p>
-    </div>
-  <div id="listpic" class="tabcontent">
-    <a rel="listpic" href="listpic.html">Click here to view the graphing tool page.</a>
-    <p>--------------------------------</p>
-  </div>
-  <script>
-function openUs(evt, usType) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(usType).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-<header>         
-    <div id="top-header">
-      <div id="header-image-menu">
-        <img src="/img/banner.png">
-    </div>
-      </div>
-    </header>
-    <div align="left">
-        <div>
-            <a href="oneenterprisestech.github.io/arch-mirror.wy.us/">Arch Linux Mirror</a>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/jpeg" href="/img/download.jpeg" />
+        <link rel="stylesheet" type="text/css" href="/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="/css/hero_1.css" />
+        <title>Directive</title>
+    </head>
+    <body>
+        <!--<div class="tab" style="text-align:center">
+            <button class="tablinks"><a href="/index.html">Back to the Homepage</a></button>
+            <button class="tablinks"><a href="hexcodespg1.html">Battery Tester Hex Code</a></button>
+            <button class="tablinks"><a href="hexcodespg2.html">Lowercase Letters Hex Code</a></button>
+            <button class="tablinks"><a href="cheatspg1.html">Simplifying Radicals Cheat</a></button>
+            <button class="tablinks"><a href="listpic.html">Simple Graphing Tool</a></button>
+            <button class="tablinks"><a href="calccheats.html">Calculator cheats Index</a></button>
         </div>
-    </div>
-  <footer>
-    &copy; 2022 OneEnterprises.Tech
-  </footer>
-</body>
+        <script src="/js/navbar.js"></script>-->
+        <div id="home">
+            <section class="hero">
+                <div class="hero-inner">
+                    <div>
+                        <a href="/index.html" class="btn">Back to the Homepage</a>
+                    </div>
+                    <div>
+                        <a href="#contetn" class="btn">View Calculator Cheats Page List</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="content">
+          <section class="hero2">
+            <div class="hero-inner-2">
+                <div>
+                    <a href="oneenterprisestech.github.io/arch-mirror.wy.us/">Arch Linux Mirror</a>
+                </div>
+                <div>
+                    <a href="hexcodespg1.html">Battery Tester Hex Code</a>
+                </div>
+                <div>
+                    <a href="hexcodespg2.html">Lowercase Letters Hex Code</a>
+                </div>
+                <div>
+                    <a href="cheatspg1.html">Simplifying Radicals Cheat</a>
+                </div>
+                <div>
+                    <a href="listpic.html">Simple Graphing Tool</a>
+                </div>
+                <div>
+                    <a href="calccheats.html">Calculator Cheats Index</a>
+                </div>
+                <div>
+                    <a href="#top" class="btn">Back to Top</a>
+              </div>
+            </section>
+        </div>
+        <footer>
+            <small>
+            &copy; 2022 OneEnterprises.Tech
+            </small>
+        </footer>
+    </body>
 </html>
