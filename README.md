@@ -1,4 +1,4 @@
-# OneEnterprises.Tech
+# One.Tech
 
 Hello and welcome to OneEnterprises.Tech!
 
@@ -28,3 +28,9 @@ You can click the button on the home page (https://oneenterprisestech.github.io)
 # Final Remarks
 
 I hope you enjoy this resource! Feel free to leave a comment or ask a question on the Issues or the Discussions tabs.
+
+# Domain
+Added website to a new domain. Check it out!
+http://onetech.eu5.org/
+You can still access this website on
+https://oneenterprisestech.github.io
