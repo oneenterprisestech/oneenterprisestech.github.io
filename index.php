@@ -5,8 +5,8 @@ session_start();
 if(isset($_GET['logout'])){    
      
     //Simple exit message
-    $logout_message = "<div class='msgln'><span class='left-info'>User <b class='user-name-left'>". $_SESSION['name'] ."</b> has left the chat session.</span><br></div>";
-    file_put_contents("log.html", $logout_message, FILE_APPEND | LOCK_EX);
+    $logout_message = "<div class='msgln'><span class='left-info'>User <b class='user-name-left'>". $_SESSION['name'] ."</b> has left this chat session.</span><br></div>";
+    file_put_contents("logs/chatlog.log", $logout_message, FILE_APPEND | LOCK_EX);
      
     session_destroy();
     header("Location: index.php"); //Redirect the user
@@ -24,7 +24,7 @@ if(isset($_POST['enter'])){
 function loginForm(){
     echo
     '<div id="loginform">
-    <p>Please enter your name to continue!</p>
+    <p>Please enter a name to continue!</p>
     <form action="index.php" method="post">
       <label for="name">Name &mdash;</label>
       <input type="text" name="name" id="name" />
@@ -46,99 +46,10 @@ function loginForm(){
 </head>
 <body>
 <div class="tab" style="text-align:center">
-    <button class="tablinks" onClick="openUs(event, 'Home')">Home</button>
-    <button class="tablinks" onClick="openUs(event, 'Back')">Go Back to the DnD Page</button>
+	<button class="tablinks"><a href="index.html">Home</a></button>
+	<button class="tablinks"><a href="html/dnd.html">Go Back to the DnD Page</a></button>
     </div>
-    <div if="Back" class='tabcontent'>
-        <div>
-            <a rel="back" href="dnd.html">Click here to return to the DnD page.</a>
-            <p>--------------------------------</p>
-        </div>
-    </div>
-    <div id="Chat" class='tabcontent'>
-      <div>
-        <a rel="chat" href="https://oneenterprisestech-chat.herokuapp.com/index.php" target="_blank">Click here to access the live chat in a new tab.</a>
-      </div>
-      <div>
-      <p>---------------------------------------</p>
-      </div>
-    </div>
-    <div id="Research" class='tabcontent'>
-      <a rel="research" href="researchindex.html">Click here to return to the Research Pages Index.</a>
-      <p>--------------------------------------</p>
-    </div>
-    </div>
-    <div id="Home" class='tabcontent'>
-      <a rel="home" href="index.html">Click here to go back to the homepage</a>
-                <p>-----------------------------------------</p>
-    </div>
-    <div id="Notes" class='tabcontent'>
-      <a rel="notes" href="https://oneenterprisestech.github.io/SchoolHelp/notehelper.html">Click here to view the notes (for schooling)</a>
-          <p>-----------------------------------------</p>
-    </div>
-    <div id="Support" class='tabcontent'>
-      <a rel="suport" href="https://www.bonfire.com/the-systems/" target="_blank">Click here to support us!</a>
-          <p>-----------------------------------------</p>
-    </div>
-    <div id="CalcCheats" class='tabcontent'>
-      <a rel="calccheats" type="text/html" href="https://oneenterprisestech.github.io/TI8483CheatsandHelps/">Click here to view the calculator cheats page</a>
-          <p>-----------------------------------------</p>
-    </div>
-    <div id="SitesList" class='tabcontent'>
-      <a rel="directive" type="text/html" href="sites_list.html">Click here to get redirected to the directory</a>
-          <p>-----------------------------------------</p>
-    </div>
-    <div id="Changelog" class='tabcontent'>
-    <a rel="changelog" type="text/html" href="changelog.html">Click here to view the Changelog</a>
-    <p>-----------------------------------------</p>
-  </div>
-    <div id="FlipAI" class='tabcontent'> 
-      <a type="text/html" href="main.html">Click here to get directed to the FlipAI website</a>
-    <p>-----------------------------------------</p>
-  </div>
-    <div id="AboutUs" class='tabcontent'>
-      <a type="text/html" href="about.html">Click here to get directed to the About Us page.</a>
-      <p>-----------------------------------------</p>
-    </div>
-  <div>
-    <div id="Music" class='tabcontent'>
-      <a type="text/html" href="fileshiz.html">Click here to get directed to the Audio page (to download music)</a>
-      <p>-------------------</p>
-    </div>
-  </div>
-  <div>
-    <div id="Tabs" class='tabcontent'>
-      <a type="text/html" href="tabs.html">Click here to view/download some guitar tabs</a>
-    </div>
-  </div>
-    <div>
-      <div id="HowTo" class="tabcontent">
-        <a type="text/html" href="htindex.html">Click here to view the How-To page</a>
-	      <p>-----------------------</p>
-      </div>
-    </div>
-      <script>
-function openUs(evt, usType) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(usType).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
-   <header>
-    <div id="top-header">
-      <div id="header-image-menu">
-        <img src="img/banner.png">
-    </div>
-	   </div>
-    </header>
+      <script rel="js/navbar.js"></script>
 	 <?php
     if(!isset($_SESSION['name'])){
         loginForm();
@@ -197,7 +108,7 @@ function openUs(evt, usType) {
                 setInterval (loadLog, 2500);
  
                 $("#exit").click(function () {
-                    var exit = confirm("Are you sure you want to end the session (You may not be able to access your chat)?");
+                    var exit = confirm("Are you sure you want to end this session? Note that you may not be able to access your past chats.");
                     if (exit == true) {
                     window.location = "index.php?logout=true";
                     }
@@ -211,11 +122,13 @@ function openUs(evt, usType) {
         theme="github-dark"
         crossorigin="anonymous"
         async>
-</script>
-<footer>
-    &copy; 2022 OneEnterprises.Tech
-  </footer>
-</body>
+	</script>
+	<footer>
+	<small>
+		&copy; 2022 OneEnterprises.Tech
+	</small>
+	</footer>
+	</body>
 </html>
 <?php
 }
