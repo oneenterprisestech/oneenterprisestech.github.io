@@ -5,7 +5,7 @@ session_start();
 if(isset($_GET['logout'])){    
      
     //Simple exit message
-    $logout_message = "<div class='msgln'><span class='left-info'>User <b class='user-name-left'>". $_SESSION['name'] ."</b> has left this chat session.</span><br></div>";
+    $logout_message = "<div class='msgln'><span class='left-info'>User <b class='user-name-left'>". $_SESSION['name'] ."</b> has exited this chat session.</span><br></div>";
     file_put_contents("logs/chatlog.log", $logout_message, FILE_APPEND | LOCK_EX);
      
     session_destroy();
@@ -37,19 +37,22 @@ function loginForm(){
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<link rel="shortcut icon" type="image/png" href="img/flipai.png"/>
+	<head>
+	<link rel="shortcut icon" type="image/png" href="img/flipai.png" />
 	<title>DnD Chat</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/hero_1.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
-</head>
-<body>
-<div class="tab" style="text-align:center">
+	<script type="text/javascript" src="jquery-1.2.6.pack.js"></script>
+	</head>
+	<body>
+	<div class="tab" style="text-align:center">
 	<button class="tablinks"><a href="index.html">Home</a></button>
-	<button class="tablinks"><a href="html/dnd.html">Go Back to the DnD Page</a></button>
-    </div>
-      <script rel="js/navbar.js"></script>
+	<button class="tablinks"><a href="/html/dnd.html">Go Back to the DnD Page</a></button>
+	</div>
+	<script src="/js/navbar.js"></script>
+		<p>One.Tech</p>
+		<p>Chat</p>
 	 <?php
     if(!isset($_SESSION['name'])){
         loginForm();
@@ -108,7 +111,7 @@ function loginForm(){
                 setInterval (loadLog, 2500);
  
                 $("#exit").click(function () {
-                    var exit = confirm("Are you sure you want to end this session? Note that you may not be able to access your past chats.");
+                    var exit = confirm("Are you sure you want to end the session? Please not that you may not be able to access your chat in the future");
                     if (exit == true) {
                     window.location = "index.php?logout=true";
                     }
@@ -122,13 +125,13 @@ function loginForm(){
         theme="github-dark"
         crossorigin="anonymous"
         async>
-	</script>
-	<footer>
+</script>
+<footer>
 	<small>
-		&copy; 2022 OneEnterprises.Tech
+    &copy; 2022 OneEnterprises.Tech
 	</small>
-	</footer>
-	</body>
+  </footer>
+</body>
 </html>
 <?php
 }
