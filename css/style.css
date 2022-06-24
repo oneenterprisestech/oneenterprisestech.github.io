@@ -394,6 +394,7 @@ footer {
   color: #ededed;
   text-align: center;
 }
+/* Anything related to the .tab identifier is obsolete. */
 .tab {
   overflow: hidden;
   border: black;
