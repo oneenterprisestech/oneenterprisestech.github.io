@@ -1,6 +1,7 @@
 # One.Tech
 
 Hello and welcome to OneEnterprises.Tech!
+Any random numbers for the commit identifier are the commit number. It also means that the commit(s) was/were made from a remote device.
 
 # Version infromation
 
